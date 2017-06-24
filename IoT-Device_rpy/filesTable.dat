@@ -1,0 +1,13 @@
+I-Logix-RPY-Archive version 8.14.0 * 9810087
+
+- filesTable = { IRPYRawContainer 
+	- size = 6;
+	- value = "IoT-Device.rpy" ""
+	"IoT-Device_rpy\\AWS.sbs" "IOT_DEVICE::AWS"
+	"IoT-Device_rpy\\CGCompatibilityPre821Cpp.sbs" "CGCompatibilityPre821Cpp"
+	"IoT-Device_rpy\\IOT_DEVICE.sbs" "IOT_DEVICE"
+	"IoT-Device_rpy\\IOT_MQTT.sbs" "IOT_DEVICE::IOT_MQTT"
+	"IoT-Device_rpy\\Test.sbs" "Test"
+	
+}
+
