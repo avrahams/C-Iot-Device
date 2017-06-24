@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 	- _id = GUID f5881f2d-654d-4234-93fa-810af18a4fb6;
 	- _myState = 8192;
 	- _name = "Test";
-	- _modifiedTimeWeak = 6.22.2017::17:34:23;
+	- _modifiedTimeWeak = 6.22.2017::17:38:44;
 	- _lastID = 3;
 	- Declaratives = { IRPYRawContainer 
 		- size = 2;
@@ -715,7 +715,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 			}
 		}
 	}
-	- weakCGTime = 6.22.2017::17:34:23;
+	- weakCGTime = 6.22.2017::17:38:44;
 	- strongCGTime = 6.20.2017::8:34:47;
 	- _defaultComposite = GUID 08e47ac6-47b2-4aa2-a7d3-cba5cd89eb3d;
 	- _eventsBaseID = 21601;
@@ -726,8 +726,8 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 			- _id = GUID 08e47ac6-47b2-4aa2-a7d3-cba5cd89eb3d;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 6.22.2017::14:41:21;
-			- weakCGTime = 6.22.2017::14:41:21;
+			- _modifiedTimeWeak = 6.22.2017::17:38:44;
+			- weakCGTime = 6.22.2017::17:38:44;
 			- strongCGTime = 6.20.2017::8:34:47;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -769,7 +769,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 					}
 				}
 			}
-			- _modifiedTimeWeak = 6.22.2017::17:34:35;
+			- _modifiedTimeWeak = 6.22.2017::17:38:44;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _filename = "IOT_MQTT.sbs";
@@ -779,7 +779,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 				- _id = GUID 4ca43ee9-53be-48a1-a691-35c9ae68288b;
 			}
 			- _lastID = 7;
-			- weakCGTime = 6.22.2017::17:34:35;
+			- weakCGTime = 6.22.2017::17:38:44;
 			- strongCGTime = 6.20.2017::9:25:47;
 			- Operations = { IRPYRawContainer 
 				- size = 5;
@@ -1195,9 +1195,9 @@ else status = \"unknows state\"; ";
 					- _id = GUID 900663ee-9320-4f28-bb31-e0055efa10f4;
 					- _myState = 10240;
 					- _name = "statechart_2";
-					- _modifiedTimeWeak = 6.20.2017::16:40:10;
+					- _modifiedTimeWeak = 6.22.2017::17:38:44;
 					- _lastID = 20;
-					- weakCGTime = 6.20.2017::16:40:10;
+					- weakCGTime = 6.22.2017::17:38:44;
 					- strongCGTime = 6.20.2017::8:36:20;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -1395,16 +1395,16 @@ else status = \"unknows state\"; ";
 							- _id = GUID c5de70b8-6b34-495b-b2b4-4144486c66e6;
 							- _myState = 2048;
 							- _name = "transition_11";
-							- _modifiedTimeWeak = 6.20.2017::8:46:5;
+							- _modifiedTimeWeak = 6.22.2017::17:38:44;
 							- _itsLabel = { ILabel 
 								- _id = GUID 684ac9e8-5199-48cf-8537-b0f73b6ecf8d;
-								- _modifiedTimeWeak = 6.20.2017::8:46:5;
+								- _modifiedTimeWeak = 6.22.2017::17:38:44;
 								- _itsTrigger = { ITimeout 
 									- _id = GUID da720395-8031-4ef7-a67e-f438736a241b;
-									- _modifiedTimeWeak = 1.2.1990::0:0:0;
-									- _body = "tm(1000)";
+									- _modifiedTimeWeak = 6.22.2017::17:38:44;
+									- _body = "tm(10000)";
 									- _info = "";
-									- _time = "1000";
+									- _time = "10000";
 								}
 								- _itsGuard = NULL;
 								- _itsAction = { IAction 
@@ -1629,7 +1629,7 @@ else status = \"unknows state\"; ";
 							- _defaultTrans = GUID 8999325b-8a12-492c-be68-1f3fc62b44c1;
 						}
 					}
-					- _version = 6.20.2017::19:40:10;
+					- _version = 6.22.2017::20:38:44;
 					- _baseVersion = 1.2.1990::0:0:0;
 					- _diagram = GUID 5977307f-fd77-454c-bb99-289afe80d67c;
 					- Views = { IRPYRawContainer 
@@ -1834,8 +1834,8 @@ else status = \"unknows state\"; ";
 								}
 							}
 							- _name = "statechartdiagram_0";
-							- _modifiedTimeWeak = 6.20.2017::16:39:5;
-							- _lastModifiedTime = "6.20.2017::16:40:10";
+							- _modifiedTimeWeak = 6.22.2017::17:38:44;
+							- _lastModifiedTime = "6.22.2017::17:38:44";
 							- _graphicChart = { CGIStateChart 
 								- _id = GUID 9c45e5e1-787c-47db-8655-b37a15f95fb9;
 								- m_type = 0;
@@ -3108,7 +3108,7 @@ else status = \"unknows state\"; ";
 									- m_targetType = 'T';
 									- m_direction = ' ';
 									- m_rpn = { CGIText 
-										- m_str = "tm(1000)/notifyStatus();";
+										- m_str = "tm(10000)/notifyStatus();";
 										- m_style = "Arial" 10 0 0 0 1 ;
 										- m_color = { IColor 
 											- m_fgColor = 0;

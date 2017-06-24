@@ -100,7 +100,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 		}
 	}
 	- _name = "IoT-Device";
-	- _modifiedTimeWeak = 6.22.2017::17:37:27;
+	- _modifiedTimeWeak = 6.24.2017::21:32:11;
 	- _lastID = 4;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;

@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 	- _id = GUID e3ae3b95-ca18-4c79-8960-d09cd2fde599;
 	- _myState = 8192;
 	- _name = "IOT_MQTT";
-	- _modifiedTimeWeak = 6.22.2017::17:33:28;
+	- _modifiedTimeWeak = 6.22.2017::17:43:49;
 	- _lastID = 6;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
@@ -191,7 +191,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 			}
 			- _name = "Overview";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "6.22.2017::15:33:28";
+			- _lastModifiedTime = "6.24.2017::21:30:20";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 9eb08909-a654-4730-a408-4a441039568e;
 				- m_type = 0;
@@ -717,7 +717,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 			}
 		}
 	}
-	- weakCGTime = 6.22.2017::17:33:28;
+	- weakCGTime = 6.22.2017::17:43:49;
 	- strongCGTime = 6.21.2017::20:52:16;
 	- _defaultComposite = GUID 299e5ba5-c17e-449d-a241-ddba47755293;
 	- _eventsBaseID = -1;
@@ -728,8 +728,8 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 			- _id = GUID 299e5ba5-c17e-449d-a241-ddba47755293;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 6.22.2017::12:15:28;
-			- weakCGTime = 6.22.2017::12:15:28;
+			- _modifiedTimeWeak = 6.22.2017::17:43:49;
+			- weakCGTime = 6.22.2017::17:43:49;
 			- strongCGTime = 6.21.2017::20:52:16;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -741,13 +741,13 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 			- _id = GUID 99a437c9-859a-46f6-abd2-b33a47dd1a23;
 			- _myState = 8192;
 			- _name = "IMQTTClient";
-			- _modifiedTimeWeak = 6.22.2017::11:32:11;
+			- _modifiedTimeWeak = 6.22.2017::17:43:49;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 4ca43ee9-53be-48a1-a691-35c9ae68288b;
 			}
 			- _lastID = 4;
-			- weakCGTime = 6.22.2017::11:32:11;
+			- weakCGTime = 6.22.2017::17:43:49;
 			- strongCGTime = 6.21.2017::20:59:6;
 			- Operations = { IRPYRawContainer 
 				- size = 5;
@@ -1052,7 +1052,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 						}
 					}
 					- _name = "subscribe";
-					- _modifiedTimeWeak = 6.18.2017::12:34:39;
+					- _modifiedTimeWeak = 6.22.2017::17:43:49;
 					- _lastID = 2;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
@@ -1061,8 +1061,33 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 						{ IArgument 
 							- _id = GUID 3c466407-a1ec-46f8-bc05-dfbb38baaffa;
 							- _myState = 8192;
+							- _properties = { IPropertyContainer 
+								- Subjects = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertySubject 
+										- _Name = "CPP_CG";
+										- Metaclasses = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertyMetaclass 
+												- _Name = "Type";
+												- Properties = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IProperty 
+														- _Name = "In";
+														- _Value = "const $type";
+														- _Type = String;
+													}
+												}
+											}
+										}
+									}
+								}
+							}
 							- _name = "topic";
-							- _modifiedTimeWeak = 6.18.2017::12:34:31;
+							- _modifiedTimeWeak = 6.22.2017::17:43:49;
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -4719,7 +4744,7 @@ return jsonDoc;";
 			- _modifiedTimeWeak = 6.22.2017::11:32:11;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
-				- _filename = "AWS.sbs";
+				- _filename = "";
 				- _subsystem = "IOT_DEVICE::AWS";
 				- _class = "";
 				- _name = "AWS Overview";
