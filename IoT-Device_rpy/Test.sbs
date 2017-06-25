@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 	- _id = GUID f5881f2d-654d-4234-93fa-810af18a4fb6;
 	- _myState = 8192;
 	- _name = "Test";
-	- _modifiedTimeWeak = 6.22.2017::17:38:44;
+	- _modifiedTimeWeak = 6.25.2017::9:32:17;
 	- _lastID = 3;
 	- Declaratives = { IRPYRawContainer 
 		- size = 2;
@@ -715,7 +715,7 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 			}
 		}
 	}
-	- weakCGTime = 6.22.2017::17:38:44;
+	- weakCGTime = 6.25.2017::9:32:17;
 	- strongCGTime = 6.20.2017::8:34:47;
 	- _defaultComposite = GUID 08e47ac6-47b2-4aa2-a7d3-cba5cd89eb3d;
 	- _eventsBaseID = 21601;
@@ -769,7 +769,7 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 					}
 				}
 			}
-			- _modifiedTimeWeak = 6.22.2017::17:38:44;
+			- _modifiedTimeWeak = 6.25.2017::9:34:12;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _filename = "IOT_MQTT.sbs";
@@ -779,10 +779,10 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 				- _id = GUID 4ca43ee9-53be-48a1-a691-35c9ae68288b;
 			}
 			- _lastID = 7;
-			- weakCGTime = 6.22.2017::17:38:44;
+			- weakCGTime = 6.25.2017::9:34:12;
 			- strongCGTime = 6.20.2017::9:25:47;
 			- Operations = { IRPYRawContainer 
-				- size = 5;
+				- size = 6;
 				- value = 
 				{ IReception 
 					- _id = GUID ace0e2b9-15d4-4020-a126-4a0755634df7;
@@ -1020,6 +1020,25 @@ else status = \"unknows state\"; ";
 					- _itsBody = { IBody 
 						- _bodyData = "";
 					}
+				}
+				{ IConstructor 
+					- _id = GUID d1c529d7-e33a-41f8-bf72-143a5ac4ef75;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 6.25.2017::9:34:12;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "";
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+					- _initializer = "IMQTTDevice(\"../../config/config.json\")";
 				}
 			}
 			- Attrs = { IRPYRawContainer 
