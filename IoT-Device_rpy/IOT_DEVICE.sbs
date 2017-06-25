@@ -1,14 +1,9 @@
-I-Logix-RPY-Archive version 8.13.0 C++ 9794446
+I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 { ISubsystem 
 	- _id = GUID b745dc08-3c72-4092-8081-d8839dbdb41a;
 	- _myState = 8192;
 	- _name = "IOT_DEVICE";
 	- _modifiedTimeWeak = 6.22.2017::14:30:52;
-	- _description = { IDescription 
-		- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
-\\viewkind4\\uc1\\pard\\fs20\\par
-}";
-	}
 	- Declaratives = { IRPYRawContainer 
 		- size = 3;
 		- value = 
@@ -25,11 +20,6 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 			- _myState = 8192;
 			- _name = "IOT";
 			- _modifiedTimeWeak = 6.22.2017::14:30:52;
-			- _description = { IDescription 
-				- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
-\\viewkind4\\uc1\\pard\\fs20\\par
-}";
-			}
 			- m_buildType = Library;
 			- m_libraries = "";
 			- m_additionalSources = "";
@@ -41,11 +31,6 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 				- _myState = 73728;
 				- _name = "Files";
 				- _modifiedTimeWeak = 6.21.2017::14:8:4;
-				- _description = { IDescription 
-					- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
-\\viewkind4\\uc1\\pard\\fs20\\par
-}";
-				}
 				- m_path = "";
 				- Elements = { IRPYRawContainer 
 					- size = 1;
@@ -276,22 +261,12 @@ clean:
 					}
 					- _name = "AWS_win64";
 					- _modifiedTimeWeak = 6.22.2017::14:31:28;
-					- _description = { IDescription 
-						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
-\\viewkind4\\uc1\\pard\\fs20\\par
-}";
-					}
 					- HyperLinks = { IRPYRawContainer 
 						- size = 1;
 						- value = 
 						{ IMHyperLink 
 							- _id = GUID cd31233a-bd1a-4c12-a2fc-25ccfde82379;
 							- _modifiedTimeWeak = 6.21.2017::20:19:3;
-							- _description = { IDescription 
-								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
-\\viewkind4\\uc1\\pard\\fs20\\par
-}";
-							}
 							- _dependsOn = { INObjectHandle 
 								- _m2Class = "";
 							}
@@ -333,11 +308,6 @@ clean:
 						- _myState = 8192;
 						- _name = "AWS_win64";
 						- _modifiedTimeWeak = 6.21.2017::20:19:3;
-						- _description = { IDescription 
-							- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
-\\viewkind4\\uc1\\pard\\fs20\\par
-}";
-						}
 						- m_path = "";
 						- Elements = { IRPYRawContainer 
 							- size = 0;
