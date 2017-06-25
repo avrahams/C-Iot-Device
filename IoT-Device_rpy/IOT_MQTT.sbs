@@ -1,4 +1,4 @@
-I-Logix-RPY-Archive version 8.14.0 C++ 9810087
+I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 { ISubsystem 
 	- _id = GUID e3ae3b95-ca18-4c79-8960-d09cd2fde599;
 	- _myState = 8192;
@@ -4744,7 +4744,7 @@ return jsonDoc;";
 			- _modifiedTimeWeak = 6.22.2017::11:32:11;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
-				- _filename = "";
+				- _filename = "AWS.sbs";
 				- _subsystem = "IOT_DEVICE::AWS";
 				- _class = "";
 				- _name = "AWS Overview";
