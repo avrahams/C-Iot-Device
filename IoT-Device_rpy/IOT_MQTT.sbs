@@ -4,6 +4,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 	- _myState = 8192;
 	- _name = "IOT_MQTT";
 	- _modifiedTimeWeak = 6.22.2017::17:43:49;
+	- _description = { IDescription 
+		- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+	}
 	- _lastID = 6;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
@@ -191,7 +196,12 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 			}
 			- _name = "Overview";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "6.24.2017::21:30:20";
+			- _description = { IDescription 
+				- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+			}
+			- _lastModifiedTime = "6.25.2017::10:0:10";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 9eb08909-a654-4730-a408-4a441039568e;
 				- m_type = 0;
@@ -746,6 +756,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 				- _m2Class = "IDiagram";
 				- _id = GUID 4ca43ee9-53be-48a1-a691-35c9ae68288b;
 			}
+			- _description = { IDescription 
+				- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+			}
 			- _lastID = 4;
 			- weakCGTime = 6.22.2017::17:43:49;
 			- strongCGTime = 6.21.2017::20:59:6;
@@ -783,6 +798,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 					}
 					- _name = "publish";
 					- _modifiedTimeWeak = 6.22.2017::7:39:0;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _lastID = 3;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
@@ -818,6 +838,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 							}
 							- _name = "topic";
 							- _modifiedTimeWeak = 6.22.2017::7:39:0;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -859,6 +884,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 							}
 							- _name = "payload";
 							- _modifiedTimeWeak = 6.22.2017::7:36:46;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -920,6 +950,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 					}
 					- _name = "publish";
 					- _modifiedTimeWeak = 6.22.2017::7:39:46;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _lastID = 5;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
@@ -955,6 +990,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 							}
 							- _name = "topic";
 							- _modifiedTimeWeak = 6.22.2017::7:39:46;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -996,6 +1036,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 							}
 							- _name = "payload";
 							- _modifiedTimeWeak = 6.22.2017::7:23:18;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IClass";
 								- _id = GUID eb28aed1-38ca-4a71-9a4f-7bd5b0248f8f;
@@ -1053,6 +1098,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 					}
 					- _name = "subscribe";
 					- _modifiedTimeWeak = 6.22.2017::17:43:49;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _lastID = 2;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
@@ -1088,6 +1138,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 							}
 							- _name = "topic";
 							- _modifiedTimeWeak = 6.22.2017::17:43:49;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -1149,6 +1204,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 					}
 					- _name = "connect";
 					- _modifiedTimeWeak = 6.21.2017::21:21:25;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -1175,6 +1235,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 					- _id = GUID b4ac5033-0204-4134-83d5-df7447dd11ed;
 					- _myState = 8192;
 					- _modifiedTimeWeak = 6.21.2017::21:24:22;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _lastID = 2;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
@@ -1210,6 +1275,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 							}
 							- _name = "p_device";
 							- _modifiedTimeWeak = 6.21.2017::20:58:10;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IClass";
 								- _id = GUID ac49ddd0-1086-48c5-b735-7fea3af578a8;
@@ -1222,6 +1292,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 							- _myState = 8192;
 							- _name = "configFile";
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -1238,6 +1313,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 							- _myState = 8192;
 							- _name = "connectAutomatically";
 							- _modifiedTimeWeak = 6.21.2017::21:24:22;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -1273,6 +1353,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 					- _myState = 139264;
 					- _name = "IMQTTClient";
 					- _modifiedTimeWeak = 6.22.2017::11:32:11;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- m_path = "";
 					- m_type = specFile;
 					- Fragments = { IRPYRawContainer 
@@ -1282,6 +1367,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 							- _id = GUID e1ea3b34-3634-4794-a8f6-e1b391e1bce9;
 							- _name = "oxf:spec";
 							- _modifiedTimeWeak = 6.21.2017::21:0:26;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = textFragment;
 							- m_text = "//## auto:dependency oxf:spec";
 							- m_startRow = 15;
@@ -1296,6 +1386,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 							- _id = GUID 8137ee4d-5e72-4a2a-a89f-979ae827ea91;
 							- _name = "IMQTTClient";
 							- _modifiedTimeWeak = 6.22.2017::11:32:11;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- Tags = { IRPYRawContainer 
 								- size = 2;
 								- value = 
@@ -1304,6 +1399,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _myState = 8192;
 									- _name = "BodyStartLine";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- ValueSpecifications = { IRPYRawContainer 
 										- size = 1;
 										- value = 
@@ -1328,6 +1428,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _myState = 8192;
 									- _name = "BodyStartCol";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- ValueSpecifications = { IRPYRawContainer 
 										- size = 1;
 										- value = 
@@ -1365,6 +1470,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID b41f1bca-b643-44a2-b12f-aed4e6b51686;
 									- _name = "////    Constructors and destructors    ////";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "////    Constructors and destructors    ////
 ";
@@ -1380,6 +1490,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID df0d66ad-365c-4c64-801c-a819895d10b4;
 									- _name = "IMQTTClient";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = specFragment;
 									- m_text = "";
 									- m_startRow = 31;
@@ -1395,6 +1510,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID a5e3d455-8af5-42c5-83ed-5c1ba0b29318;
 									- _name = "~IMQTTClient:spec";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "//## auto:operation ~IMQTTClient():spec";
 									- m_startRow = 34;
@@ -1409,6 +1529,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID df6104da-2296-4f80-89d6-02a52f0c7dfc;
 									- _name = "////    Operations    ////";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "////    Operations    ////
 ";
@@ -1424,6 +1549,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID f9ef7862-67f9-4082-a4aa-ca6d52b8d53e;
 									- _name = "publish";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = specFragment;
 									- m_text = "";
 									- m_startRow = 39;
@@ -1439,6 +1569,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID 3d5cbc7a-df59-4326-8031-4485f89c1f0d;
 									- _name = "publish";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = specFragment;
 									- m_text = "";
 									- m_startRow = 42;
@@ -1454,6 +1589,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID 06dcfaf7-5bab-4573-8cad-c498b77a53d4;
 									- _name = "subscribe";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = specFragment;
 									- m_text = "";
 									- m_startRow = 45;
@@ -1469,6 +1609,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID f339151d-266d-415d-8377-31a064684290;
 									- _name = "////    Additional operations    ////";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "////    Additional operations    ////
 ";
@@ -1484,6 +1629,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID b8bfd93f-4c5d-4062-9c6f-b9ea7364c78a;
 									- _name = "getDevice:spec";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "//## auto:operation getDevice() const:spec";
 									- m_startRow = 50;
@@ -1498,6 +1648,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID 0dc777af-1970-436f-be01-7cf09ec3be75;
 									- _name = "setDevice:spec";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "//## auto:operation setDevice(IMQTTDevice *):spec";
 									- m_startRow = 53;
@@ -1512,6 +1667,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID 5a546e3e-57a4-4056-8e78-f962472c0b59;
 									- _name = "cleanUpRelations:spec";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "//## auto:operation cleanUpRelations():spec";
 									- m_startRow = 58;
@@ -1526,6 +1686,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID d05045ed-128b-498e-ae26-86ee1ad33504;
 									- _name = "////    Relations and components    ////";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "////    Relations and components    ////
 ";
@@ -1541,6 +1706,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID bacd5048-89b8-4161-b3b5-a95a508418c4;
 									- _name = "device";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = specFragment;
 									- m_text = "";
 									- m_startRow = 62;
@@ -1556,6 +1726,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID 5fb5673b-37f5-4b13-ae30-f5cfa2c0d447;
 									- _name = "////    Framework operations    ////";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "////    Framework operations    ////
 ";
@@ -1571,6 +1746,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID 676dea01-a997-45aa-8983-8348b22d7692;
 									- _name = "__setDevice:spec";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "//## auto:operation __setDevice(IMQTTDevice *):spec";
 									- m_startRow = 69;
@@ -1585,6 +1765,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID 1bded3e1-56e4-4294-a9e9-9c7792577f84;
 									- _name = "_setDevice:spec";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "//## auto:operation _setDevice(IMQTTDevice *):spec";
 									- m_startRow = 72;
@@ -1599,6 +1784,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID a19478de-4cef-43a4-a0cc-9617a79940a8;
 									- _name = "_clearDevice:spec";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "//## auto:operation _clearDevice():spec";
 									- m_startRow = 75;
@@ -1613,6 +1803,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID b10bc35d-91f7-4ea1-8b9c-2d26ac6ced16;
 									- _name = "IMQTTClient:spec";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "//## auto:operation IMQTTClient():spec";
 									- m_startRow = 78;
@@ -1627,6 +1822,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID b21312a8-69a3-44d4-bcd9-a1e53968230d;
 									- _name = "connect";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = specFragment;
 									- m_text = "";
 									- m_startRow = 81;
@@ -1647,6 +1847,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 					- _myState = 139264;
 					- _name = "IMQTTClient";
 					- _modifiedTimeWeak = 6.22.2017::11:32:11;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- m_path = "";
 					- m_type = implFile;
 					- Fragments = { IRPYRawContainer 
@@ -1656,6 +1861,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 							- _id = GUID 74ea0cf6-659a-4bdb-b678-8864526dbad3;
 							- _name = "IMQTTClient:spec";
 							- _modifiedTimeWeak = 6.21.2017::21:0:26;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = textFragment;
 							- m_text = "//## auto:dependency IMQTTClient:spec";
 							- m_startRow = 12;
@@ -1670,6 +1880,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 							- _id = GUID 178b3672-db92-479a-a0fb-7aa998f92242;
 							- _name = "IMQTTDevice:spec";
 							- _modifiedTimeWeak = 6.21.2017::21:0:26;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = textFragment;
 							- m_text = "//## auto:dependency IMQTTDevice:spec";
 							- m_startRow = 14;
@@ -1684,6 +1899,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 							- _id = GUID 0f3e6905-6eac-4416-8401-7c12421b5656;
 							- _name = "MQTTJSONPayload:spec";
 							- _modifiedTimeWeak = 6.21.2017::21:0:26;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = textFragment;
 							- m_text = "//## auto:dependency MQTTJSONPayload:spec";
 							- m_startRow = 16;
@@ -1698,6 +1918,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 							- _id = GUID d65acb37-3548-456e-abdc-2dc066f80796;
 							- _name = "IMQTTClient";
 							- _modifiedTimeWeak = 6.22.2017::11:32:11;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = implFragment;
 							- m_text = "";
 							- m_startRow = 20;
@@ -1715,6 +1940,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID 26dade02-0d56-47d8-989d-ac4fa67443ca;
 									- _name = "IMQTTClient";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -1723,6 +1953,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -1747,6 +1982,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 6.22.2017::11:32:11;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -1782,6 +2022,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID 18ff89f0-aca9-4eeb-b937-c969f1d960b1;
 									- _name = "~IMQTTClient:impl";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -1790,6 +2035,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 6.22.2017::11:32:11;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -1814,6 +2064,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 6.22.2017::11:32:11;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -1848,6 +2103,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID 76ab922b-0c25-4b48-984a-7e165497dd9a;
 									- _name = "getDevice:impl";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -1856,6 +2116,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 6.22.2017::11:32:11;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -1880,6 +2145,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -1914,6 +2184,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID f2009064-db64-4c17-8f62-d2b646628fc0;
 									- _name = "setDevice:impl";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -1922,6 +2197,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 6.22.2017::11:32:11;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -1946,6 +2226,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -1980,6 +2265,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID 5ca0c031-1854-4d95-8ff2-fcb2c232f1aa;
 									- _name = "cleanUpRelations:impl";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -1988,6 +2278,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 6.22.2017::11:32:11;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -2012,6 +2307,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -2046,6 +2346,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID bac4f199-a439-4c26-b526-f72a3bc8418d;
 									- _name = "__setDevice:impl";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -2054,6 +2359,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 6.22.2017::11:32:11;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -2078,6 +2388,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -2112,6 +2427,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID ec573b53-9e4f-425b-bc48-9966f48ecc55;
 									- _name = "_setDevice:impl";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -2120,6 +2440,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 6.22.2017::11:32:11;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -2144,6 +2469,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -2178,6 +2508,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID 63c153aa-8d8c-46c9-ad22-0f359b3d12f3;
 									- _name = "_clearDevice:impl";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -2186,6 +2521,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 6.22.2017::11:32:11;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -2210,6 +2550,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -2244,6 +2589,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 									- _id = GUID 5b58872c-7174-44fa-9c79-de372c976926;
 									- _name = "IMQTTClient:impl";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -2252,6 +2602,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -2276,6 +2631,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -2323,6 +2683,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 					- _myState = 8192;
 					- _name = "device";
 					- _modifiedTimeWeak = 6.18.2017::12:48:37;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -2374,6 +2739,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 			}
 			- _name = "MQTTJSONPayload";
 			- _modifiedTimeWeak = 6.22.2017::12:15:28;
+			- _description = { IDescription 
+				- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+			}
 			- _lastID = 6;
 			- weakCGTime = 6.22.2017::12:15:28;
 			- strongCGTime = 6.22.2017::7:5:3;
@@ -2384,6 +2754,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 					- _id = GUID 770e6816-ca90-4a96-a9db-159bbd70df54;
 					- _myState = 8192;
 					- _modifiedTimeWeak = 6.22.2017::11:14:24;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -2408,6 +2783,11 @@ jValueObj.SetObject();";
 					- _myState = 8192;
 					- _name = "add";
 					- _modifiedTimeWeak = 6.22.2017::11:12:22;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _lastID = 2;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
@@ -2418,6 +2798,11 @@ jValueObj.SetObject();";
 							- _myState = 8192;
 							- _name = "name";
 							- _modifiedTimeWeak = 6.21.2017::6:37:31;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -2434,6 +2819,11 @@ jValueObj.SetObject();";
 							- _myState = 8192;
 							- _name = "value";
 							- _modifiedTimeWeak = 6.21.2017::6:37:45;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -2476,6 +2866,11 @@ if (name != NULL)
 					- _myState = 8192;
 					- _name = "add";
 					- _modifiedTimeWeak = 6.22.2017::11:11:4;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _lastID = 2;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
@@ -2486,6 +2881,11 @@ if (name != NULL)
 							- _myState = 8192;
 							- _name = "name";
 							- _modifiedTimeWeak = 6.21.2017::6:37:31;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -2502,6 +2902,11 @@ if (name != NULL)
 							- _myState = 8192;
 							- _name = "value";
 							- _modifiedTimeWeak = 6.21.2017::7:6:57;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -2544,6 +2949,11 @@ if (name != NULL)
 					- _myState = 8192;
 					- _name = "getReportDoc";
 					- _modifiedTimeWeak = 6.22.2017::12:15:28;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -2552,6 +2962,11 @@ if (name != NULL)
 						- _id = GUID c0700ca7-44f3-4e50-8085-6a26aea37354;
 						- _myState = 8192;
 						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _description = { IDescription 
+							- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+						}
 						- _declaration = "rapidjson::Document&";
 						- _kind = Language;
 					}
@@ -2631,6 +3046,11 @@ return jsonDoc;";
 					}
 					- _name = "jsonDoc";
 					- _modifiedTimeWeak = 6.21.2017::6:34:50;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- myTypeOf = { IType 
 						- _id = GUID 1d215fea-65aa-416c-99db-6f04bf746178;
 						- _myState = 8192;
@@ -2686,6 +3106,11 @@ return jsonDoc;";
 					}
 					- _name = "jValueObj";
 					- _modifiedTimeWeak = 6.21.2017::6:52:21;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- myTypeOf = { IType 
 						- _id = GUID 8cf81786-fbfa-45d4-bca2-abfd156f97ac;
 						- _myState = 8192;
@@ -2708,6 +3133,11 @@ return jsonDoc;";
 					- _myState = 139264;
 					- _name = "MQTTJSONPayload";
 					- _modifiedTimeWeak = 6.22.2017::12:15:28;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- m_path = "";
 					- m_type = specFile;
 					- Fragments = { IRPYRawContainer 
@@ -2717,6 +3147,11 @@ return jsonDoc;";
 							- _id = GUID b03cbd34-39ac-4068-89dc-e12f454a4221;
 							- _name = "oxf:spec";
 							- _modifiedTimeWeak = 6.22.2017::11:11:4;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = textFragment;
 							- m_text = "//## auto:dependency oxf:spec";
 							- m_startRow = 15;
@@ -2731,6 +3166,11 @@ return jsonDoc;";
 							- _id = GUID 3e15344e-6a77-43b7-96f3-1c8a789f4503;
 							- _name = "document:spec";
 							- _modifiedTimeWeak = 6.22.2017::11:11:4;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = textFragment;
 							- m_text = "//## auto:dependency document:spec";
 							- m_startRow = 17;
@@ -2745,6 +3185,11 @@ return jsonDoc;";
 							- _id = GUID 6db066d9-003f-4cdb-ad0f-ca0b42343f67;
 							- _name = "MQTTJSONPayload";
 							- _modifiedTimeWeak = 6.22.2017::12:15:28;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- Tags = { IRPYRawContainer 
 								- size = 2;
 								- value = 
@@ -2753,6 +3198,11 @@ return jsonDoc;";
 									- _myState = 8192;
 									- _name = "BodyStartLine";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- ValueSpecifications = { IRPYRawContainer 
 										- size = 1;
 										- value = 
@@ -2777,6 +3227,11 @@ return jsonDoc;";
 									- _myState = 8192;
 									- _name = "BodyStartCol";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- ValueSpecifications = { IRPYRawContainer 
 										- size = 1;
 										- value = 
@@ -2814,6 +3269,11 @@ return jsonDoc;";
 									- _id = GUID 376e3d79-f9fd-4c34-a427-1203e29799a5;
 									- _name = "////    Constructors and destructors    ////";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "////    Constructors and destructors    ////
 ";
@@ -2829,6 +3289,11 @@ return jsonDoc;";
 									- _id = GUID 92af8b0c-5114-4c29-9da5-cf2e94249d05;
 									- _name = "MQTTJSONPayload";
 									- _modifiedTimeWeak = 6.22.2017::12:15:28;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = specFragment;
 									- m_text = "";
 									- m_startRow = 27;
@@ -2844,6 +3309,11 @@ return jsonDoc;";
 									- _id = GUID 064878ca-e632-4303-ab0b-3d8b846d9089;
 									- _name = "~MQTTJSONPayload:spec";
 									- _modifiedTimeWeak = 6.22.2017::11:11:4;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "//## auto:operation ~MQTTJSONPayload():spec";
 									- m_startRow = 30;
@@ -2858,6 +3328,11 @@ return jsonDoc;";
 									- _id = GUID d85c595d-5c1e-4205-b610-3895b0921870;
 									- _name = "////    Operations    ////";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "////    Operations    ////
 ";
@@ -2873,6 +3348,11 @@ return jsonDoc;";
 									- _id = GUID 9f5f00a2-f903-4e1c-afe0-5c60c396a1c8;
 									- _name = "add";
 									- _modifiedTimeWeak = 6.22.2017::11:11:4;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = specFragment;
 									- m_text = "";
 									- m_startRow = 35;
@@ -2888,6 +3368,11 @@ return jsonDoc;";
 									- _id = GUID 3ec19e99-b8d6-490b-9d9f-e7abe0facf18;
 									- _name = "add";
 									- _modifiedTimeWeak = 6.22.2017::11:11:4;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = specFragment;
 									- m_text = "";
 									- m_startRow = 38;
@@ -2903,6 +3388,11 @@ return jsonDoc;";
 									- _id = GUID ed7ccb25-540d-4f55-9fac-1f1731577399;
 									- _name = "getReportDoc";
 									- _modifiedTimeWeak = 6.22.2017::12:15:28;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = specFragment;
 									- m_text = "";
 									- m_startRow = 41;
@@ -2918,6 +3408,11 @@ return jsonDoc;";
 									- _id = GUID f42cc2e1-b20d-49e5-8880-d263d04910c0;
 									- _name = "////    Attributes    ////";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "////    Attributes    ////
 ";
@@ -2933,6 +3428,11 @@ return jsonDoc;";
 									- _id = GUID d419aed5-d828-4d92-994c-c0e83fa331e7;
 									- _name = "jValueObj";
 									- _modifiedTimeWeak = 6.22.2017::11:11:4;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = specFragment;
 									- m_text = "";
 									- m_startRow = 47;
@@ -2948,6 +3448,11 @@ return jsonDoc;";
 									- _id = GUID b213b4a0-f75d-4ef5-bb0a-2a83e8afecf2;
 									- _name = "jsonDoc";
 									- _modifiedTimeWeak = 6.22.2017::11:11:4;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = specFragment;
 									- m_text = "";
 									- m_startRow = 49;
@@ -2968,6 +3473,11 @@ return jsonDoc;";
 					- _myState = 139264;
 					- _name = "MQTTJSONPayload";
 					- _modifiedTimeWeak = 6.22.2017::12:15:28;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- m_path = "";
 					- m_type = implFile;
 					- Fragments = { IRPYRawContainer 
@@ -2977,6 +3487,11 @@ return jsonDoc;";
 							- _id = GUID 1ee4d8a4-a664-4611-a5cf-d3626fc5feed;
 							- _name = "MQTTJSONPayload:spec";
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = textFragment;
 							- m_text = "//## auto:dependency MQTTJSONPayload:spec";
 							- m_startRow = 12;
@@ -2991,6 +3506,11 @@ return jsonDoc;";
 							- _id = GUID db022294-ea37-4269-bf97-0000faa43592;
 							- _name = "stringbuffer:spec";
 							- _modifiedTimeWeak = 6.22.2017::11:11:4;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = textFragment;
 							- m_text = "//## auto:dependency stringbuffer:spec";
 							- m_startRow = 14;
@@ -3005,6 +3525,11 @@ return jsonDoc;";
 							- _id = GUID 39570ec9-d017-4c83-a96d-e4ddd831f593;
 							- _name = "prettywriter:spec";
 							- _modifiedTimeWeak = 6.22.2017::11:11:4;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = textFragment;
 							- m_text = "//## auto:dependency prettywriter:spec";
 							- m_startRow = 16;
@@ -3019,6 +3544,11 @@ return jsonDoc;";
 							- _id = GUID 3cbeba77-3e24-4abe-94eb-f6ae4dfb3b17;
 							- _name = "ctime:spec";
 							- _modifiedTimeWeak = 6.22.2017::11:30:51;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = textFragment;
 							- m_text = "//## auto:dependency ctime:spec";
 							- m_startRow = 18;
@@ -3033,6 +3563,11 @@ return jsonDoc;";
 							- _id = GUID 24f4e596-67cb-47bd-9bd9-4c44a0e28a0d;
 							- _name = "MQTTJSONPayload";
 							- _modifiedTimeWeak = 6.22.2017::12:15:28;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = implFragment;
 							- m_text = "";
 							- m_startRow = 22;
@@ -3050,6 +3585,11 @@ return jsonDoc;";
 									- _id = GUID edf32aad-3023-4122-a1cb-53a1622f621f;
 									- _name = "MQTTJSONPayload";
 									- _modifiedTimeWeak = 6.22.2017::12:15:28;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -3058,6 +3598,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 6.22.2017::11:30:51;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -3082,6 +3627,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -3117,6 +3667,11 @@ return jsonDoc;";
 									- _id = GUID ff544eb1-8b9d-4401-9ad7-5660f07bc17a;
 									- _name = "~MQTTJSONPayload:impl";
 									- _modifiedTimeWeak = 6.22.2017::11:30:51;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -3125,6 +3680,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 6.22.2017::11:30:51;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -3149,6 +3709,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -3183,6 +3748,11 @@ return jsonDoc;";
 									- _id = GUID c2908322-fb3d-45db-b1aa-328b1fa54ea9;
 									- _name = "add";
 									- _modifiedTimeWeak = 6.22.2017::11:30:51;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -3191,6 +3761,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 6.22.2017::11:30:51;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -3215,6 +3790,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -3250,6 +3830,11 @@ return jsonDoc;";
 									- _id = GUID 8eb18cd8-0fea-40ba-91a1-cf413586176b;
 									- _name = "add";
 									- _modifiedTimeWeak = 6.22.2017::11:30:51;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -3258,6 +3843,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 6.22.2017::11:30:51;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -3282,6 +3872,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -3317,6 +3912,11 @@ return jsonDoc;";
 									- _id = GUID 51f676f1-5dfe-434e-b2e3-ce34d07c530e;
 									- _name = "getReportDoc";
 									- _modifiedTimeWeak = 6.22.2017::12:15:28;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -3325,6 +3925,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 6.22.2017::11:30:51;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -3349,6 +3954,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 6.22.2017::12:15:28;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -3415,6 +4025,11 @@ return jsonDoc;";
 						}
 					}
 					- _modifiedTimeWeak = 6.21.2017::21:35:0;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _dependsOn = { INObjectHandle 
 						- _m2Class = "IClass";
 						- _id = GUID 43da2fd6-a32d-4d4d-9a94-11a6e286f3fa;
@@ -3425,6 +4040,11 @@ return jsonDoc;";
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 4ca43ee9-53be-48a1-a691-35c9ae68288b;
+			}
+			- _description = { IDescription 
+				- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
 			}
 			- _lastID = 1;
 			- weakCGTime = 6.22.2017::17:33:41;
@@ -3463,6 +4083,11 @@ return jsonDoc;";
 					}
 					- _name = "onMqttMessage";
 					- _modifiedTimeWeak = 6.22.2017::17:33:41;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _lastID = 2;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
@@ -3498,6 +4123,11 @@ return jsonDoc;";
 							}
 							- _name = "topic";
 							- _modifiedTimeWeak = 6.22.2017::17:33:28;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -3539,6 +4169,11 @@ return jsonDoc;";
 							}
 							- _name = "payload";
 							- _modifiedTimeWeak = 6.22.2017::17:33:41;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -3573,6 +4208,11 @@ return jsonDoc;";
 					- _id = GUID 82c72d30-941d-43a6-9c5d-7421b8ef59bc;
 					- _myState = 8192;
 					- _modifiedTimeWeak = 6.22.2017::8:37:39;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _lastID = 2;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
@@ -3583,6 +4223,11 @@ return jsonDoc;";
 							- _myState = 8192;
 							- _name = "configFile";
 							- _modifiedTimeWeak = 6.21.2017::21:38:35;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- ValueSpecifications = { IRPYRawContainer 
 								- size = 1;
 								- value = 
@@ -3608,6 +4253,11 @@ return jsonDoc;";
 							- _myState = 8192;
 							- _name = "connectAutomatically";
 							- _modifiedTimeWeak = 6.21.2017::21:39:0;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- ValueSpecifications = { IRPYRawContainer 
 								- size = 1;
 								- value = 
@@ -3648,6 +4298,11 @@ return jsonDoc;";
 					- _myState = 8192;
 					- _name = "init";
 					- _modifiedTimeWeak = 6.22.2017::8:36:49;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _lastID = 2;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
@@ -3658,6 +4313,11 @@ return jsonDoc;";
 							- _myState = 8192;
 							- _name = "configFile";
 							- _modifiedTimeWeak = 6.22.2017::8:36:44;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -3674,6 +4334,11 @@ return jsonDoc;";
 							- _myState = 8192;
 							- _name = "connectAutomatically";
 							- _modifiedTimeWeak = 6.22.2017::8:36:49;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -3713,6 +4378,11 @@ return jsonDoc;";
 					- _myState = 139264;
 					- _name = "IMQTTDevice";
 					- _modifiedTimeWeak = 6.22.2017::11:32:11;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- m_path = "";
 					- m_type = specFile;
 					- Fragments = { IRPYRawContainer 
@@ -3722,6 +4392,11 @@ return jsonDoc;";
 							- _id = GUID f99c7bee-934b-4f2b-a686-9424e11adfd7;
 							- _name = "oxf:spec";
 							- _modifiedTimeWeak = 6.22.2017::11:32:11;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = textFragment;
 							- m_text = "//## auto:dependency oxf:spec";
 							- m_startRow = 15;
@@ -3736,6 +4411,11 @@ return jsonDoc;";
 							- _id = GUID 98108cd7-e6fd-40c3-9e23-b2900df5e862;
 							- _name = "MQTTClientFactory";
 							- _modifiedTimeWeak = 6.22.2017::11:32:11;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = specFragment;
 							- m_text = "";
 							- m_startRow = 17;
@@ -3751,6 +4431,11 @@ return jsonDoc;";
 							- _id = GUID 8ccd3a52-d437-41f8-8ce5-8c44f2a28e92;
 							- _name = "IMQTTDevice";
 							- _modifiedTimeWeak = 6.22.2017::11:32:11;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- Tags = { IRPYRawContainer 
 								- size = 2;
 								- value = 
@@ -3759,6 +4444,11 @@ return jsonDoc;";
 									- _myState = 8192;
 									- _name = "BodyStartLine";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- ValueSpecifications = { IRPYRawContainer 
 										- size = 1;
 										- value = 
@@ -3783,6 +4473,11 @@ return jsonDoc;";
 									- _myState = 8192;
 									- _name = "BodyStartCol";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- ValueSpecifications = { IRPYRawContainer 
 										- size = 1;
 										- value = 
@@ -3820,6 +4515,11 @@ return jsonDoc;";
 									- _id = GUID af7d353e-4c21-4ec9-928d-597d0c087f57;
 									- _name = "////    Constructors and destructors    ////";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "////    Constructors and destructors    ////
 ";
@@ -3835,6 +4535,11 @@ return jsonDoc;";
 									- _id = GUID 033ad9cd-2156-4bce-bfe8-01f27d80c5ca;
 									- _name = "IMQTTDevice";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = specFragment;
 									- m_text = "";
 									- m_startRow = 30;
@@ -3850,6 +4555,11 @@ return jsonDoc;";
 									- _id = GUID cdbf5154-f47e-4e39-9725-4eac8139c6c6;
 									- _name = "~IMQTTDevice:spec";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "//## auto:operation ~IMQTTDevice():spec";
 									- m_startRow = 33;
@@ -3864,6 +4574,11 @@ return jsonDoc;";
 									- _id = GUID 38589820-b951-4639-8c4a-4251bfc3442c;
 									- _name = "////    Operations    ////";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "////    Operations    ////
 ";
@@ -3879,6 +4594,11 @@ return jsonDoc;";
 									- _id = GUID 4b5afea2-a13d-497b-ad6b-f2db089b9ee5;
 									- _name = "init";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = specFragment;
 									- m_text = "";
 									- m_startRow = 38;
@@ -3894,6 +4614,11 @@ return jsonDoc;";
 									- _id = GUID 15e3a9aa-8cc8-4bf8-957b-8da082e495bb;
 									- _name = "onMqttMessage";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = specFragment;
 									- m_text = "";
 									- m_startRow = 41;
@@ -3909,6 +4634,11 @@ return jsonDoc;";
 									- _id = GUID c1cf67b3-da19-4387-bc23-8552415542e9;
 									- _name = "////    Additional operations    ////";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "////    Additional operations    ////
 ";
@@ -3924,6 +4654,11 @@ return jsonDoc;";
 									- _id = GUID 1509eeba-13ec-4181-976a-6989c8e621b4;
 									- _name = "getMqttClient:spec";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "//## auto:operation getMqttClient() const:spec";
 									- m_startRow = 46;
@@ -3938,6 +4673,11 @@ return jsonDoc;";
 									- _id = GUID 8720964d-1057-45c4-a39b-13a4ea472e49;
 									- _name = "setMqttClient:spec";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "//## auto:operation setMqttClient(IMQTTClient *):spec";
 									- m_startRow = 49;
@@ -3952,6 +4692,11 @@ return jsonDoc;";
 									- _id = GUID 79e790ec-88e3-46aa-9e97-e416a1cd6dfa;
 									- _name = "cleanUpRelations:spec";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "//## auto:operation cleanUpRelations():spec";
 									- m_startRow = 54;
@@ -3966,6 +4711,11 @@ return jsonDoc;";
 									- _id = GUID 4cd64019-d279-4fb9-bf9e-779dbaab1d2e;
 									- _name = "////    Relations and components    ////";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "////    Relations and components    ////
 ";
@@ -3981,6 +4731,11 @@ return jsonDoc;";
 									- _id = GUID 332c17de-5e29-417f-b0b2-6096e1b52d90;
 									- _name = "mqttClient";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = specFragment;
 									- m_text = "";
 									- m_startRow = 58;
@@ -3996,6 +4751,11 @@ return jsonDoc;";
 									- _id = GUID e94fe2f3-dc88-48df-a49e-4912b07faf1c;
 									- _name = "////    Framework operations    ////";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "////    Framework operations    ////
 ";
@@ -4011,6 +4771,11 @@ return jsonDoc;";
 									- _id = GUID 954cb4dc-60c6-4e93-9704-4136bbf78aa4;
 									- _name = "__setMqttClient:spec";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "//## auto:operation __setMqttClient(IMQTTClient *):spec";
 									- m_startRow = 65;
@@ -4025,6 +4790,11 @@ return jsonDoc;";
 									- _id = GUID 3dcb5d9d-f811-4ca3-aa5a-a942ff4770c1;
 									- _name = "_setMqttClient:spec";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "//## auto:operation _setMqttClient(IMQTTClient *):spec";
 									- m_startRow = 68;
@@ -4039,6 +4809,11 @@ return jsonDoc;";
 									- _id = GUID db860198-2859-4f6f-94b8-8e67df8e07a1;
 									- _name = "_clearMqttClient:spec";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "//## auto:operation _clearMqttClient():spec";
 									- m_startRow = 71;
@@ -4058,6 +4833,11 @@ return jsonDoc;";
 					- _myState = 139264;
 					- _name = "IMQTTDevice";
 					- _modifiedTimeWeak = 6.22.2017::11:32:11;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- m_path = "";
 					- m_type = implFile;
 					- Fragments = { IRPYRawContainer 
@@ -4067,6 +4847,11 @@ return jsonDoc;";
 							- _id = GUID 83522686-a14d-47fe-a823-2ca7c9754350;
 							- _name = "IMQTTDevice:spec";
 							- _modifiedTimeWeak = 6.22.2017::11:32:11;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = textFragment;
 							- m_text = "//## auto:dependency IMQTTDevice:spec";
 							- m_startRow = 12;
@@ -4081,6 +4866,11 @@ return jsonDoc;";
 							- _id = GUID 89b7230f-1645-4d6f-9f25-28f648d49f34;
 							- _name = "IMQTTClient:spec";
 							- _modifiedTimeWeak = 6.22.2017::11:32:11;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = textFragment;
 							- m_text = "//## auto:dependency IMQTTClient:spec";
 							- m_startRow = 14;
@@ -4095,6 +4885,11 @@ return jsonDoc;";
 							- _id = GUID a959b412-75f7-4906-b10b-d5f3da443a94;
 							- _name = "IMQTTDevice";
 							- _modifiedTimeWeak = 6.22.2017::11:32:11;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = implFragment;
 							- m_text = "";
 							- m_startRow = 18;
@@ -4112,6 +4907,11 @@ return jsonDoc;";
 									- _id = GUID 74ee9f50-42b1-42ac-8b0c-f267e20ab054;
 									- _name = "IMQTTDevice";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -4120,6 +4920,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -4144,6 +4949,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -4179,6 +4989,11 @@ return jsonDoc;";
 									- _id = GUID d80e9d8a-8520-4a48-be5d-ffcc7f040937;
 									- _name = "~IMQTTDevice:impl";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -4187,6 +5002,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -4211,6 +5031,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -4245,6 +5070,11 @@ return jsonDoc;";
 									- _id = GUID 64ea60de-3b6c-498b-9a05-ff0da30b3851;
 									- _name = "init";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -4253,6 +5083,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -4277,6 +5112,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -4312,6 +5152,11 @@ return jsonDoc;";
 									- _id = GUID dae6655f-2c8d-477a-b398-50ae55f84f71;
 									- _name = "getMqttClient:impl";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -4320,6 +5165,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -4344,6 +5194,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -4378,6 +5233,11 @@ return jsonDoc;";
 									- _id = GUID 9010e02e-988f-4c59-8352-9ee1ced2290d;
 									- _name = "setMqttClient:impl";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -4386,6 +5246,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -4410,6 +5275,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -4444,6 +5314,11 @@ return jsonDoc;";
 									- _id = GUID b3a487ce-7440-44fa-bb9f-cdf6e803a054;
 									- _name = "cleanUpRelations:impl";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -4452,6 +5327,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -4476,6 +5356,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -4510,6 +5395,11 @@ return jsonDoc;";
 									- _id = GUID ed2ad08b-e7cb-4c94-945c-3b5fa4c39d7f;
 									- _name = "__setMqttClient:impl";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -4518,6 +5408,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -4542,6 +5437,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -4576,6 +5476,11 @@ return jsonDoc;";
 									- _id = GUID c22fc0f6-a935-4896-813f-af26cf1d48a7;
 									- _name = "_setMqttClient:impl";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -4584,6 +5489,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -4608,6 +5518,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -4642,6 +5557,11 @@ return jsonDoc;";
 									- _id = GUID 9599eddc-00a0-4212-bd7d-d19674a14b7d;
 									- _name = "_clearMqttClient:impl";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -4650,6 +5570,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -4674,6 +5599,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -4721,6 +5651,11 @@ return jsonDoc;";
 					- _myState = 8192;
 					- _name = "mqttClient";
 					- _modifiedTimeWeak = 6.21.2017::21:2:5;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _multiplicity = "0,1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -4744,11 +5679,16 @@ return jsonDoc;";
 			- _modifiedTimeWeak = 6.22.2017::11:32:11;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
-				- _filename = "AWS.sbs";
+				- _filename = "";
 				- _subsystem = "IOT_DEVICE::AWS";
 				- _class = "";
 				- _name = "AWS Overview";
 				- _id = GUID 3c6e4131-3c8b-4b86-a203-4d87cb8bac74;
+			}
+			- _description = { IDescription 
+				- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
 			}
 			- _lastID = 2;
 			- weakCGTime = 6.22.2017::11:32:11;
@@ -4787,6 +5727,11 @@ return jsonDoc;";
 					}
 					- _name = "createClient";
 					- _modifiedTimeWeak = 6.21.2017::21:40:3;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _lastID = 3;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
@@ -4822,6 +5767,11 @@ return jsonDoc;";
 							}
 							- _name = "p_device";
 							- _modifiedTimeWeak = 6.21.2017::21:31:52;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IClass";
 								- _id = GUID ac49ddd0-1086-48c5-b735-7fea3af578a8;
@@ -4834,6 +5784,11 @@ return jsonDoc;";
 							- _myState = 8192;
 							- _name = "configFile";
 							- _modifiedTimeWeak = 6.21.2017::21:39:59;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -4850,6 +5805,11 @@ return jsonDoc;";
 							- _myState = 8192;
 							- _name = "connectAutomatically";
 							- _modifiedTimeWeak = 6.21.2017::21:40:3;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -4880,6 +5840,11 @@ return jsonDoc;";
 					- _id = GUID dbd6007a-89e5-4816-80f3-7ea667fe060a;
 					- _myState = 8192;
 					- _modifiedTimeWeak = 6.21.2017::20:9:33;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -4939,6 +5904,11 @@ return jsonDoc;";
 					}
 					- _name = "factory";
 					- _modifiedTimeWeak = 6.21.2017::20:10:30;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- ValueSpecifications = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -4970,6 +5940,11 @@ return jsonDoc;";
 					- _myState = 139264;
 					- _name = "MQTTClientFactory";
 					- _modifiedTimeWeak = 6.22.2017::11:32:11;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- m_path = "";
 					- m_type = specFile;
 					- Fragments = { IRPYRawContainer 
@@ -4979,6 +5954,11 @@ return jsonDoc;";
 							- _id = GUID ff32e66a-50b6-4f03-b996-c4d8d9bb574a;
 							- _name = "oxf:spec";
 							- _modifiedTimeWeak = 6.22.2017::11:32:11;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = textFragment;
 							- m_text = "//## auto:dependency oxf:spec";
 							- m_startRow = 15;
@@ -4993,6 +5973,11 @@ return jsonDoc;";
 							- _id = GUID 123a15da-be13-4563-b9e5-f0addaeebb98;
 							- _name = "MQTTClientFactory";
 							- _modifiedTimeWeak = 6.22.2017::11:32:11;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- Tags = { IRPYRawContainer 
 								- size = 2;
 								- value = 
@@ -5001,6 +5986,11 @@ return jsonDoc;";
 									- _myState = 8192;
 									- _name = "BodyStartLine";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- ValueSpecifications = { IRPYRawContainer 
 										- size = 1;
 										- value = 
@@ -5025,6 +6015,11 @@ return jsonDoc;";
 									- _myState = 8192;
 									- _name = "BodyStartCol";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- ValueSpecifications = { IRPYRawContainer 
 										- size = 1;
 										- value = 
@@ -5062,6 +6057,11 @@ return jsonDoc;";
 									- _id = GUID 564f0c89-3888-419d-99bf-69197637c9f4;
 									- _name = "////    Constructors and destructors    ////";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "////    Constructors and destructors    ////
 ";
@@ -5077,6 +6077,11 @@ return jsonDoc;";
 									- _id = GUID 9e94ae1e-758c-41c1-b0cb-936d381e47fc;
 									- _name = "MQTTClientFactory";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = specFragment;
 									- m_text = "";
 									- m_startRow = 31;
@@ -5092,6 +6097,11 @@ return jsonDoc;";
 									- _id = GUID f7f5b79e-8ebe-40f4-829b-29914215ed79;
 									- _name = "~MQTTClientFactory:spec";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "//## auto:operation ~MQTTClientFactory():spec";
 									- m_startRow = 36;
@@ -5106,6 +6116,11 @@ return jsonDoc;";
 									- _id = GUID 22ff561b-3241-44f3-a1ff-01cc3742be4d;
 									- _name = "////    Operations    ////";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "////    Operations    ////
 ";
@@ -5121,6 +6136,11 @@ return jsonDoc;";
 									- _id = GUID 29822625-8fd2-4140-a462-b9d824bd4a71;
 									- _name = "createClient";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = specFragment;
 									- m_text = "";
 									- m_startRow = 41;
@@ -5136,6 +6156,11 @@ return jsonDoc;";
 									- _id = GUID 7daa86fc-0320-4cb7-a59e-9b1d89a5cbcd;
 									- _name = "////    Additional operations    ////";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "////    Additional operations    ////
 ";
@@ -5151,6 +6176,11 @@ return jsonDoc;";
 									- _id = GUID 964c34c4-58c4-4a95-bf79-5748e8dff3c3;
 									- _name = "getFactory:spec";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "//## auto:operation getFactory():spec";
 									- m_startRow = 46;
@@ -5165,6 +6195,11 @@ return jsonDoc;";
 									- _id = GUID f0bdb9ef-5c3c-45db-b00c-b9167eb04695;
 									- _name = "////    Attributes    ////";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = textFragment;
 									- m_text = "////    Attributes    ////
 ";
@@ -5180,6 +6215,11 @@ return jsonDoc;";
 									- _id = GUID 89d3f037-d7e0-4247-889e-c193e837ff31;
 									- _name = "factory";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = specFragment;
 									- m_text = "";
 									- m_startRow = 52;
@@ -5200,6 +6240,11 @@ return jsonDoc;";
 					- _myState = 139264;
 					- _name = "MQTTClientFactory";
 					- _modifiedTimeWeak = 6.22.2017::11:32:11;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- m_path = "";
 					- m_type = implFile;
 					- Fragments = { IRPYRawContainer 
@@ -5209,6 +6254,11 @@ return jsonDoc;";
 							- _id = GUID bdc2ca50-296f-48c8-a84a-523b011edaf7;
 							- _name = "MQTTClientFactory:spec";
 							- _modifiedTimeWeak = 6.22.2017::11:32:11;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = textFragment;
 							- m_text = "//## auto:dependency MQTTClientFactory:spec";
 							- m_startRow = 12;
@@ -5223,6 +6273,11 @@ return jsonDoc;";
 							- _id = GUID 11b29c6e-6b63-4076-aecc-c44f3005dafd;
 							- _name = "IMQTTClient:spec";
 							- _modifiedTimeWeak = 6.22.2017::11:32:11;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = textFragment;
 							- m_text = "//## auto:dependency IMQTTClient:spec";
 							- m_startRow = 14;
@@ -5237,6 +6292,11 @@ return jsonDoc;";
 							- _id = GUID 78b3df4a-7417-4f23-af64-c25de840aa5e;
 							- _name = "IMQTTDevice:spec";
 							- _modifiedTimeWeak = 6.22.2017::11:32:11;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = textFragment;
 							- m_text = "//## auto:dependency IMQTTDevice:spec";
 							- m_startRow = 16;
@@ -5251,6 +6311,11 @@ return jsonDoc;";
 							- _id = GUID 2f0b3a8c-209c-4281-8812-7970269f536d;
 							- _name = "MQTTClientFactory";
 							- _modifiedTimeWeak = 6.22.2017::11:32:11;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- m_type = implFragment;
 							- m_text = "";
 							- m_startRow = 20;
@@ -5268,6 +6333,11 @@ return jsonDoc;";
 									- _id = GUID dfb66a8a-168e-49fb-a609-87f872c18ee3;
 									- _name = "factory";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- m_type = implFragment;
 									- m_text = "";
 									- m_startRow = 20;
@@ -5283,6 +6353,11 @@ return jsonDoc;";
 									- _id = GUID 3d469f2b-388f-4599-8531-58c0abc801c1;
 									- _name = "MQTTClientFactory";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -5291,6 +6366,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -5315,6 +6395,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -5350,6 +6435,11 @@ return jsonDoc;";
 									- _id = GUID c0fb85f7-fc7a-4e2f-b552-0c6139723e0a;
 									- _name = "~MQTTClientFactory:impl";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -5358,6 +6448,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -5382,6 +6477,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -5416,6 +6516,11 @@ return jsonDoc;";
 									- _id = GUID d9d2d7fb-5af5-4c51-8641-b66f1a5fd503;
 									- _name = "getFactory:impl";
 									- _modifiedTimeWeak = 6.22.2017::11:32:11;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -5424,6 +6529,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartLine";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -5448,6 +6558,11 @@ return jsonDoc;";
 											- _myState = 8192;
 											- _name = "BodyStartCol";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _description = { IDescription 
+												- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+											}
 											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 

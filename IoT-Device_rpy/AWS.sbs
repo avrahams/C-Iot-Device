@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 	- _id = GUID 394479e8-4847-4fb4-b4a4-40d75dcb4488;
 	- _myState = 8192;
 	- _name = "AWS";
-	- _modifiedTimeWeak = 6.24.2017::21:30:20;
+	- _modifiedTimeWeak = 6.25.2017::10:0:10;
 	- _lastID = 3;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
@@ -995,7 +995,7 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 			}
 		}
 	}
-	- weakCGTime = 6.24.2017::21:30:20;
+	- weakCGTime = 6.25.2017::10:0:10;
 	- strongCGTime = 6.18.2017::12:20:32;
 	- _defaultComposite = GUID 51434541-b70e-41de-80d2-94ee71943509;
 	- _eventsBaseID = -1;
@@ -1006,9 +1006,9 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 			- _id = GUID 51434541-b70e-41de-80d2-94ee71943509;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 6.24.2017::21:30:20;
+			- _modifiedTimeWeak = 6.25.2017::9:59:29;
 			- _lastID = 1;
-			- weakCGTime = 6.24.2017::21:30:20;
+			- weakCGTime = 6.25.2017::9:59:29;
 			- strongCGTime = 6.18.2017::12:20:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1121,7 +1121,7 @@ using namespace awsiotsdk;";
 					}
 				}
 			}
-			- _modifiedTimeWeak = 6.24.2017::21:30:20;
+			- _modifiedTimeWeak = 6.25.2017::10:0:10;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _filename = "IOT_MQTT.sbs";
@@ -1131,7 +1131,7 @@ using namespace awsiotsdk;";
 				- _id = GUID 4ca43ee9-53be-48a1-a691-35c9ae68288b;
 			}
 			- _lastID = 10;
-			- weakCGTime = 6.24.2017::21:30:20;
+			- weakCGTime = 6.25.2017::10:0:10;
 			- strongCGTime = 6.21.2017::20:41:45;
 			- Operations = { IRPYRawContainer 
 				- size = 9;
@@ -1287,7 +1287,7 @@ return ResponseCode::SUCCESS;";
 					- _id = GUID 44ca67ee-31bf-40a0-919c-74e6e24ee5ee;
 					- _myState = 8192;
 					- _name = "InitializeTLS";
-					- _modifiedTimeWeak = 6.22.2017::14:58:56;
+					- _modifiedTimeWeak = 6.25.2017::9:47:40;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -1309,13 +1309,13 @@ return ResponseCode::SUCCESS;";
 						- _bodyData = "ResponseCode rc = ResponseCode::SUCCESS;
 p_network_connection =
 	std::make_shared<network::OpenSSLConnection>(ConfigCommon::endpoint_,
-		ConfigCommon::endpoint_mqtt_port_,
-		ConfigCommon::root_ca_path_,
-		ConfigCommon::client_cert_path_,
-		ConfigCommon::client_key_path_,
-		ConfigCommon::tls_handshake_timeout_,
-		ConfigCommon::tls_read_timeout_,
-		ConfigCommon::tls_write_timeout_, true);
+	ConfigCommon::endpoint_mqtt_port_,
+	ConfigCommon::root_ca_path_,
+	ConfigCommon::client_cert_path_,
+	ConfigCommon::client_key_path_,
+	ConfigCommon::tls_handshake_timeout_,
+	ConfigCommon::tls_read_timeout_,
+	ConfigCommon::tls_write_timeout_, true);
 rc = p_network_connection->Initialize();
 
 if (ResponseCode::SUCCESS != rc) {
@@ -1759,7 +1759,7 @@ else
 						}
 					}
 					- _name = "subscribe";
-					- _modifiedTimeWeak = 6.24.2017::21:26:12;
+					- _modifiedTimeWeak = 6.25.2017::9:47:40;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -1828,7 +1828,7 @@ mqtt::Subscription::ApplicationCallbackHandlerPtr p_sub_handler = std::bind(&AWS
 	this,
 	std::placeholders::_1,
 	std::placeholders::_2,
-	std::placeholders::_3);      
+	std::placeholders::_3);
 std::shared_ptr<mqtt::SubscriptionHandlerContextData> context = std::make_shared<DeviceSubscriptionHandlerContextData>();
 std::shared_ptr<mqtt::Subscription> p_subscription =
 	mqtt::Subscription::Create(std::move(p_topic_name), mqtt::QoS::QOS0, p_sub_handler, context);
@@ -1912,7 +1912,7 @@ return true;";
 					- _id = GUID 661d10c1-4ffe-41e6-a57d-c5108e6869a9;
 					- _myState = 8192;
 					- _name = "SubscribeCallback";
-					- _modifiedTimeWeak = 6.24.2017::21:30:20;
+					- _modifiedTimeWeak = 6.25.2017::10:0:10;
 					- _lastID = 3;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
@@ -1978,8 +1978,16 @@ return true;";
 					- _static = 0;
 					- _constant = 0;
 					- _itsBody = { IBody 
-						- _bodyData = "if(std::dynamic_pointer_cast<DeviceSubscriptionHandlerContextData>(p_app_handler_data))
-	return ResponseCode::SUCCESS; //message comming from the device 
+						- _bodyData = "/* if(std::dynamic_pointer_cast<DeviceSubscriptionHandlerContextData>(p_app_handler_data))
+	 return ResponseCode::SUCCESS; //message comming from the device */
+rapidjson::Document jdonDoc;
+jdonDoc.Parse(payload.c_str());
+if (jdonDoc.HasMember(\"state\")){
+	rapidjson::Value& state = jdonDoc[\"state\"];
+	if (state.HasMember(\"reported\")){
+		return ResponseCode::SUCCESS; //message comming from the device */
+	}
+}
 
 
 std::cout << std::endl << \"************\" << std::endl;
@@ -2116,7 +2124,7 @@ return ResponseCode::SUCCESS;";
 					- _id = GUID 96f49d80-c6d6-44c8-a43b-3696d3b53806;
 					- _myState = 139264;
 					- _name = "AWS_Client";
-					- _modifiedTimeWeak = 6.24.2017::21:30:20;
+					- _modifiedTimeWeak = 6.25.2017::10:0:10;
 					- m_path = "";
 					- m_type = specFile;
 					- Fragments = { IRPYRawContainer 
@@ -2252,7 +2260,7 @@ return ResponseCode::SUCCESS;";
 						{ IFileFragment 
 							- _id = GUID 95320daa-c36a-41ff-9f79-667378eba029;
 							- _name = "AWS_Client";
-							- _modifiedTimeWeak = 6.24.2017::21:30:20;
+							- _modifiedTimeWeak = 6.25.2017::10:0:10;
 							- Tags = { IRPYRawContainer 
 								- size = 2;
 								- value = 
@@ -2526,7 +2534,7 @@ return ResponseCode::SUCCESS;";
 								{ IFileFragment 
 									- _id = GUID f77d083f-22d6-4dc2-bb65-6e472e1d6c28;
 									- _name = "AWS_Client";
-									- _modifiedTimeWeak = 6.24.2017::21:30:20;
+									- _modifiedTimeWeak = 6.25.2017::10:0:10;
 									- m_type = specFragment;
 									- m_text = "";
 									- m_startRow = 107;
@@ -2650,7 +2658,7 @@ return ResponseCode::SUCCESS;";
 					- _id = GUID 0fad7289-1cbe-4ec9-859e-58916d90a7fd;
 					- _myState = 139264;
 					- _name = "AWS_Client";
-					- _modifiedTimeWeak = 6.24.2017::21:30:20;
+					- _modifiedTimeWeak = 6.25.2017::10:0:10;
 					- m_path = "";
 					- m_type = implFile;
 					- Fragments = { IRPYRawContainer 
@@ -2716,7 +2724,7 @@ return ResponseCode::SUCCESS;";
 						{ IFileFragment 
 							- _id = GUID f0c525e2-2ae9-41df-b7fb-f9cc05fcc35a;
 							- _name = "AWS_Client";
-							- _modifiedTimeWeak = 6.24.2017::21:30:20;
+							- _modifiedTimeWeak = 6.25.2017::10:0:10;
 							- m_type = implFragment;
 							- m_text = "";
 							- m_startRow = 22;
@@ -3264,7 +3272,7 @@ return ResponseCode::SUCCESS;";
 								{ IFileFragment 
 									- _id = GUID 0427364e-8ee9-4399-a91a-89e6930ad69d;
 									- _name = "AWS_Client";
-									- _modifiedTimeWeak = 6.24.2017::21:30:20;
+									- _modifiedTimeWeak = 6.25.2017::10:0:10;
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -3665,7 +3673,7 @@ return ResponseCode::SUCCESS;";
 								{ IFileFragment 
 									- _id = GUID e55f0224-42e9-469a-91cd-116cb7e87437;
 									- _name = "SubscribeCallback";
-									- _modifiedTimeWeak = 6.24.2017::21:29:49;
+									- _modifiedTimeWeak = 6.25.2017::9:55:5;
 									- Tags = { IRPYRawContainer 
 										- size = 2;
 										- value = 
@@ -3722,7 +3730,7 @@ return ResponseCode::SUCCESS;";
 									- m_text = "";
 									- m_startRow = 216;
 									- m_startCol_Short = 176;
-									- m_endRow = 231;
+									- m_endRow = 239;
 									- m_endCol_Short = 1;
 									- m_subject = { INObjectHandle 
 										- _m2Class = "IPrimitiveOperation";

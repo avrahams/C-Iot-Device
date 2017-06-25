@@ -40,6 +40,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 		}
 	}
 	- _modifiedTimeWeak = 6.21.2017::14:10:50;
+	- _description = { IDescription 
+		- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+	}
 	- weakCGTime = 6.21.2017::14:10:50;
 	- strongCGTime = 1.9.2017::14:28:12;
 	- _defaultComposite = GUID 435500d0-3980-47c9-93a2-823deea0b037;

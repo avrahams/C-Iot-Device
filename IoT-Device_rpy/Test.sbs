@@ -4,6 +4,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 	- _myState = 8192;
 	- _name = "Test";
 	- _modifiedTimeWeak = 6.25.2017::9:32:17;
+	- _description = { IDescription 
+		- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+	}
 	- _lastID = 3;
 	- Declaratives = { IRPYRawContainer 
 		- size = 2;
@@ -13,6 +18,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 			- _myState = 8192;
 			- _name = "Test";
 			- _modifiedTimeWeak = 6.22.2017::14:41:21;
+			- _description = { IDescription 
+				- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+			}
 			- m_buildType = Executable;
 			- m_libraries = "";
 			- m_additionalSources = "";
@@ -24,6 +34,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 				- _myState = 73728;
 				- _name = "Files";
 				- _modifiedTimeWeak = 6.21.2017::19:40:32;
+				- _description = { IDescription 
+					- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+				}
 				- m_path = "";
 				- Elements = { IRPYRawContainer 
 					- size = 1;
@@ -85,12 +100,22 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 					}
 					- _name = "tempCtrl";
 					- _modifiedTimeWeak = 6.22.2017::14:41:21;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- HyperLinks = { IRPYRawContainer 
 						- size = 2;
 						- value = 
 						{ IMHyperLink 
 							- _id = GUID 7d66bfa4-57cc-479b-9069-e8dc300eb67c;
 							- _modifiedTimeWeak = 6.21.2017::19:35:55;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _dependsOn = { INObjectHandle 
 								- _m2Class = "";
 							}
@@ -102,6 +127,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 						{ IMHyperLink 
 							- _id = GUID 59b03dfd-0bed-4e24-b886-07b8f4473986;
 							- _modifiedTimeWeak = 6.21.2017::19:35:55;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _dependsOn = { INObjectHandle 
 								- _m2Class = "";
 							}
@@ -147,6 +177,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 						- _myState = 8192;
 						- _name = "tempCtrl";
 						- _modifiedTimeWeak = 6.21.2017::19:35:55;
+						- _description = { IDescription 
+							- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+						}
 						- m_path = "";
 						- Elements = { IRPYRawContainer 
 							- size = 0;
@@ -324,6 +359,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 			}
 			- _name = "test-view";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _description = { IDescription 
+				- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+			}
 			- _lastModifiedTime = "6.21.2017::21:27:26";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID c26fd041-b56d-4c6c-afff-36eabc6bd5a0;
@@ -759,6 +799,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 						}
 					}
 					- _modifiedTimeWeak = 6.21.2017::7:29:5;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _dependsOn = { INObjectHandle 
 						- _m2Class = "IClass";
 						- _filename = "IOT_MQTT.sbs";
@@ -778,6 +823,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 				- _name = "Overview";
 				- _id = GUID 4ca43ee9-53be-48a1-a691-35c9ae68288b;
 			}
+			- _description = { IDescription 
+				- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+			}
 			- _lastID = 7;
 			- weakCGTime = 6.25.2017::9:34:12;
 			- strongCGTime = 6.20.2017::9:25:47;
@@ -788,6 +838,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 					- _id = GUID ace0e2b9-15d4-4020-a126-4a0755634df7;
 					- _myState = 8192;
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -801,6 +856,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 					- _id = GUID f68bd9cf-42da-4993-b54f-ea694354a0c1;
 					- _myState = 8192;
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -815,6 +875,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 					- _myState = 8192;
 					- _name = "notifyStatus";
 					- _modifiedTimeWeak = 6.22.2017::7:42:6;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -858,6 +923,11 @@ std::cout << \"status = \" << status << \" actualTemp = \" << actualTemp << \" d
 					- _myState = 8192;
 					- _name = "updateStatus";
 					- _modifiedTimeWeak = 6.20.2017::8:48:47;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -915,6 +985,11 @@ else status = \"unknows state\"; ";
 					}
 					- _name = "onMqttMessage";
 					- _modifiedTimeWeak = 6.22.2017::17:34:35;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -950,6 +1025,11 @@ else status = \"unknows state\"; ";
 							}
 							- _name = "topic";
 							- _modifiedTimeWeak = 6.22.2017::17:34:23;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -991,6 +1071,11 @@ else status = \"unknows state\"; ";
 							}
 							- _name = "payload";
 							- _modifiedTimeWeak = 6.22.2017::17:34:35;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -1025,6 +1110,12 @@ else status = \"unknows state\"; ";
 					- _id = GUID d1c529d7-e33a-41f8-bf72-143a5ac4ef75;
 					- _myState = 8192;
 					- _modifiedTimeWeak = 6.25.2017::9:34:12;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 MS Sans Serif;}}
+\\viewkind4\\uc1\\pard\\f0\\fs17\\par
+}
+";
+					}
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -1111,6 +1202,11 @@ else status = \"unknows state\"; ";
 					- _myState = 8192;
 					- _name = "status";
 					- _modifiedTimeWeak = 6.20.2017::8:37:25;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- ValueSpecifications = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -1139,6 +1235,11 @@ else status = \"unknows state\"; ";
 					- _myState = 8192;
 					- _name = "DT";
 					- _modifiedTimeWeak = 6.20.2017::16:41:42;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- ValueSpecifications = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -1194,6 +1295,11 @@ else status = \"unknows state\"; ";
 						}
 					}
 					- _modifiedTimeWeak = 6.21.2017::19:46:30;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _dependsOn = { INObjectHandle 
 						- _m2Class = "IClass";
 						- _filename = "IOT_MQTT.sbs";
@@ -1215,6 +1321,11 @@ else status = \"unknows state\"; ";
 					- _myState = 10240;
 					- _name = "statechart_2";
 					- _modifiedTimeWeak = 6.22.2017::17:38:44;
+					- _description = { IDescription 
+						- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+					}
 					- _lastID = 20;
 					- weakCGTime = 6.22.2017::17:38:44;
 					- strongCGTime = 6.20.2017::8:36:20;
@@ -1232,10 +1343,20 @@ else status = \"unknows state\"; ";
 							- _myState = 2048;
 							- _name = "defaulttransition_1";
 							- _modifiedTimeWeak = 6.20.2017::9:58:12;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _errorStatus = ErrorItem;
 							- _itsLabel = { ILabel 
 								- _id = GUID d3e72184-743a-461e-9eb2-25aa03fbf867;
 								- _modifiedTimeWeak = 1.2.1990::0:0:0;
+								- _description = { IDescription 
+									- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+								}
 								- _itsTrigger = NULL;
 								- _itsGuard = NULL;
 								- _itsAction = NULL;
@@ -1250,12 +1371,27 @@ else status = \"unknows state\"; ";
 							- _myState = 2048;
 							- _name = "transition_2";
 							- _modifiedTimeWeak = 6.20.2017::8:38:20;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _itsLabel = { ILabel 
 								- _id = GUID d3b06e45-4a75-426e-8daa-82e82a2066dd;
 								- _modifiedTimeWeak = 6.20.2017::8:38:20;
+								- _description = { IDescription 
+									- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+								}
 								- _itsTrigger = { IInterfaceItemTrigger 
 									- _id = GUID 7fb8a917-e5bb-4a6b-826d-0e5ad664f870;
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- _body = "evOn";
 									- _info = "";
 									- _itsInterfaceItem = { IHandle 
@@ -1275,12 +1411,27 @@ else status = \"unknows state\"; ";
 							- _myState = 2048;
 							- _name = "transition_3";
 							- _modifiedTimeWeak = 6.20.2017::8:38:25;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _itsLabel = { ILabel 
 								- _id = GUID 78d502e9-9d5e-415c-af6f-24355dfac204;
 								- _modifiedTimeWeak = 6.20.2017::8:38:25;
+								- _description = { IDescription 
+									- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+								}
 								- _itsTrigger = { IInterfaceItemTrigger 
 									- _id = GUID 307deb7c-8f68-4ae9-afd5-b76223233a2f;
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- _body = "evOff";
 									- _info = "";
 									- _itsInterfaceItem = { IHandle 
@@ -1300,12 +1451,27 @@ else status = \"unknows state\"; ";
 							- _myState = 2048;
 							- _name = "transition_5";
 							- _modifiedTimeWeak = 6.20.2017::16:40:3;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _itsLabel = { ILabel 
 								- _id = GUID 95c2fbb0-8a15-433e-a7cb-bc9494788cf6;
 								- _modifiedTimeWeak = 6.20.2017::16:40:3;
+								- _description = { IDescription 
+									- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+								}
 								- _itsTrigger = { ITimeout 
 									- _id = GUID 3ded5410-b99b-413d-9899-5f4d552ce259;
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- _body = "tm(500)";
 									- _info = "";
 									- _time = "500";
@@ -1322,10 +1488,20 @@ else status = \"unknows state\"; ";
 							- _myState = 2048;
 							- _name = "defaulttransition_6";
 							- _modifiedTimeWeak = 6.20.2017::8:55:9;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _errorStatus = ErrorItem;
 							- _itsLabel = { ILabel 
 								- _id = GUID 1b20cfed-e470-410f-8bf8-2a622ac37f62;
 								- _modifiedTimeWeak = 1.2.1990::0:0:0;
+								- _description = { IDescription 
+									- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+								}
 								- _itsTrigger = NULL;
 								- _itsGuard = NULL;
 								- _itsAction = NULL;
@@ -1340,13 +1516,28 @@ else status = \"unknows state\"; ";
 							- _myState = 2048;
 							- _name = "transition_7";
 							- _modifiedTimeWeak = 6.20.2017::8:53:56;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _itsLabel = { ILabel 
 								- _id = GUID 3d4a4f77-80dd-4c19-99de-cdb0fcf1b4bb;
 								- _modifiedTimeWeak = 6.20.2017::8:53:56;
+								- _description = { IDescription 
+									- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+								}
 								- _itsTrigger = NULL;
 								- _itsGuard = { IGuard 
 									- _id = GUID 2b025215-05a2-47bd-9d91-68927ce9cc03;
 									- _modifiedTimeWeak = 6.20.2017::8:53:56;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- _body = "desiredTemp > actualTemp + DT";
 								}
 								- _itsAction = NULL;
@@ -1360,13 +1551,28 @@ else status = \"unknows state\"; ";
 							- _myState = 2048;
 							- _name = "transition_8";
 							- _modifiedTimeWeak = 6.20.2017::8:54:2;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _itsLabel = { ILabel 
 								- _id = GUID 65bc4980-ba83-4d5e-a60b-a7ecd0c3d73a;
 								- _modifiedTimeWeak = 6.20.2017::8:54:2;
+								- _description = { IDescription 
+									- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+								}
 								- _itsTrigger = NULL;
 								- _itsGuard = { IGuard 
 									- _id = GUID 6738280b-a891-4a22-b646-c731bfcec1fe;
 									- _modifiedTimeWeak = 6.20.2017::8:54:2;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- _body = "desiredTemp < actualTemp - DT";
 								}
 								- _itsAction = NULL;
@@ -1380,9 +1586,19 @@ else status = \"unknows state\"; ";
 							- _myState = 2048;
 							- _name = "defaulttransition_9";
 							- _modifiedTimeWeak = 6.20.2017::8:45:8;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _itsLabel = { ILabel 
 								- _id = GUID 09c9582e-ee8d-4259-bab3-c61c600c01e4;
 								- _modifiedTimeWeak = 1.2.1990::0:0:0;
+								- _description = { IDescription 
+									- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+								}
 								- _itsTrigger = NULL;
 								- _itsGuard = NULL;
 								- _itsAction = NULL;
@@ -1397,10 +1613,20 @@ else status = \"unknows state\"; ";
 							- _myState = 2048;
 							- _name = "defaulttransition_10";
 							- _modifiedTimeWeak = 6.20.2017::9:58:12;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _errorStatus = ErrorItem;
 							- _itsLabel = { ILabel 
 								- _id = GUID 92fedfa6-19b2-4218-b77c-67038547010e;
 								- _modifiedTimeWeak = 1.2.1990::0:0:0;
+								- _description = { IDescription 
+									- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+								}
 								- _itsTrigger = NULL;
 								- _itsGuard = NULL;
 								- _itsAction = NULL;
@@ -1415,12 +1641,27 @@ else status = \"unknows state\"; ";
 							- _myState = 2048;
 							- _name = "transition_11";
 							- _modifiedTimeWeak = 6.22.2017::17:38:44;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _itsLabel = { ILabel 
 								- _id = GUID 684ac9e8-5199-48cf-8537-b0f73b6ecf8d;
 								- _modifiedTimeWeak = 6.22.2017::17:38:44;
+								- _description = { IDescription 
+									- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+								}
 								- _itsTrigger = { ITimeout 
 									- _id = GUID da720395-8031-4ef7-a67e-f438736a241b;
 									- _modifiedTimeWeak = 6.22.2017::17:38:44;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- _body = "tm(10000)";
 									- _info = "";
 									- _time = "10000";
@@ -1429,6 +1670,11 @@ else status = \"unknows state\"; ";
 								- _itsAction = { IAction 
 									- _id = GUID 5a068c7e-c893-44e6-9ced-ccd9b8bf23e6;
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- _body = "notifyStatus();";
 								}
 							}
@@ -1441,12 +1687,27 @@ else status = \"unknows state\"; ";
 							- _myState = 2048;
 							- _name = "transition_14";
 							- _modifiedTimeWeak = 6.20.2017::8:57:21;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _itsLabel = { ILabel 
 								- _id = GUID 764df9bb-9157-44ca-a6ed-b916c1e8ae8a;
 								- _modifiedTimeWeak = 6.20.2017::8:57:21;
+								- _description = { IDescription 
+									- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+								}
 								- _itsTrigger = { ITimeout 
 									- _id = GUID e478cd89-29e7-486d-887a-227585b0020f;
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- _body = "tm(500)";
 									- _info = "";
 									- _time = "500";
@@ -1455,6 +1716,11 @@ else status = \"unknows state\"; ";
 								- _itsAction = { IAction 
 									- _id = GUID 1b50771d-4739-420d-8d91-ab4e09602105;
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- _body = "actualTemp += 0.1;";
 								}
 							}
@@ -1467,12 +1733,27 @@ else status = \"unknows state\"; ";
 							- _myState = 2048;
 							- _name = "transition_15";
 							- _modifiedTimeWeak = 6.20.2017::8:57:43;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _itsLabel = { ILabel 
 								- _id = GUID a338f485-d19c-42f8-8313-595a5fa27fe2;
 								- _modifiedTimeWeak = 6.20.2017::8:57:43;
+								- _description = { IDescription 
+									- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+								}
 								- _itsTrigger = { ITimeout 
 									- _id = GUID 12a39aab-9822-4e82-adc3-f4e0a6e5d6c5;
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- _body = "tm(500)";
 									- _info = "";
 									- _time = "500";
@@ -1481,6 +1762,11 @@ else status = \"unknows state\"; ";
 								- _itsAction = { IAction 
 									- _id = GUID 10169ad6-3014-489e-a501-e0429db678ff;
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- _body = "actualTemp -= 0.1;";
 								}
 							}
@@ -1493,13 +1779,28 @@ else status = \"unknows state\"; ";
 							- _myState = 2048;
 							- _name = "transition_16";
 							- _modifiedTimeWeak = 6.20.2017::9:22:41;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _itsLabel = { ILabel 
 								- _id = GUID 5ca1b4cb-cfef-41c9-abbb-6e2dfb0b182a;
 								- _modifiedTimeWeak = 6.20.2017::9:22:41;
+								- _description = { IDescription 
+									- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+								}
 								- _itsTrigger = NULL;
 								- _itsGuard = { IGuard 
 									- _id = GUID 3d8fc0ea-86d8-46ed-b6df-f8029d4e0d35;
 									- _modifiedTimeWeak = 6.20.2017::9:22:41;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- _body = "actualTemp <= desiredTemp";
 								}
 								- _itsAction = NULL;
@@ -1513,13 +1814,28 @@ else status = \"unknows state\"; ";
 							- _myState = 2048;
 							- _name = "transition_17";
 							- _modifiedTimeWeak = 6.20.2017::9:23:0;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _itsLabel = { ILabel 
 								- _id = GUID cae0df03-6a81-42be-acff-f363e0685920;
 								- _modifiedTimeWeak = 6.20.2017::9:23:0;
+								- _description = { IDescription 
+									- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+								}
 								- _itsTrigger = NULL;
 								- _itsGuard = { IGuard 
 									- _id = GUID 0bb31661-f4a8-4037-ab67-27d651bb8026;
 									- _modifiedTimeWeak = 6.20.2017::9:23:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- _body = "actualTemp >= desiredTemp";
 								}
 								- _itsAction = NULL;
@@ -1533,13 +1849,28 @@ else status = \"unknows state\"; ";
 							- _myState = 2048;
 							- _name = "transition_19";
 							- _modifiedTimeWeak = 6.20.2017::16:39:43;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _itsLabel = { ILabel 
 								- _id = GUID 2dc50875-52c2-4c82-a939-1dee0f4dec01;
 								- _modifiedTimeWeak = 6.20.2017::16:39:43;
+								- _description = { IDescription 
+									- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+								}
 								- _itsTrigger = NULL;
 								- _itsGuard = { IGuard 
 									- _id = GUID f15d6d23-b314-4a01-b005-4cb86ea37b73;
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _description = { IDescription 
+										- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+									}
 									- _body = "else";
 								}
 								- _itsAction = NULL;
@@ -1556,6 +1887,11 @@ else status = \"unknows state\"; ";
 							- _id = GUID 64665e57-7b4f-432f-a118-ba5ad92a1f11;
 							- _name = "condition_4";
 							- _modifiedTimeWeak = 6.20.2017::16:39:5;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _parent = GUID 411d6a5e-2120-47da-a833-4304cf5fe883;
 							- _connectorType = Condition;
 						}
@@ -1573,6 +1909,11 @@ else status = \"unknows state\"; ";
 							- _id = GUID 3f96beec-98cd-49f3-9fc5-bbbb3003577a;
 							- _name = "off";
 							- _modifiedTimeWeak = 6.20.2017::9:58:12;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _parent = GUID 4520ad9c-b170-423c-af7a-17ffbe3d2013;
 							- _defaultTrans = ;
 						}
@@ -1580,12 +1921,22 @@ else status = \"unknows state\"; ";
 							- _id = GUID 411d6a5e-2120-47da-a833-4304cf5fe883;
 							- _name = "on";
 							- _modifiedTimeWeak = 6.20.2017::9:58:12;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _parent = GUID 4520ad9c-b170-423c-af7a-17ffbe3d2013;
 							- _defaultTrans = GUID ba48ba51-b614-4ccf-a96c-cd2f71343e0c;
 							- _entryAction = { IAction 
 								- _id = GUID 2c777893-970c-454d-aa36-7b56d88f4f96;
 								- _myState = 4096;
 								- _modifiedTimeWeak = 6.20.2017::8:43:14;
+								- _description = { IDescription 
+									- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+								}
 								- _body = "  ";
 							}
 						}
@@ -1593,6 +1944,11 @@ else status = \"unknows state\"; ";
 							- _id = GUID 3eaf388a-97d7-4119-8370-0e0e1d60db8c;
 							- _name = "working";
 							- _modifiedTimeWeak = 6.20.2017::16:40:10;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _parent = GUID 411d6a5e-2120-47da-a833-4304cf5fe883;
 							- _defaultTrans = ;
 						}
@@ -1600,12 +1956,22 @@ else status = \"unknows state\"; ";
 							- _id = GUID 6030cf94-4123-4339-ba9c-256be055f1a6;
 							- _name = "heating";
 							- _modifiedTimeWeak = 6.20.2017::8:58:25;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _parent = GUID 411d6a5e-2120-47da-a833-4304cf5fe883;
 							- _defaultTrans = ;
 							- _entryAction = { IAction 
 								- _id = GUID 17966112-0c7b-4d5c-837f-fc534e2a7de1;
 								- _myState = 4096;
 								- _modifiedTimeWeak = 1.2.1990::0:0:0;
+								- _description = { IDescription 
+									- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+								}
 								- _body = "  ";
 							}
 						}
@@ -1613,6 +1979,11 @@ else status = \"unknows state\"; ";
 							- _id = GUID 0c935bdc-5730-451f-9612-81fd3da65782;
 							- _name = "cooling";
 							- _modifiedTimeWeak = 6.20.2017::8:58:1;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _parent = GUID 411d6a5e-2120-47da-a833-4304cf5fe883;
 							- _defaultTrans = ;
 						}
@@ -1620,6 +1991,11 @@ else status = \"unknows state\"; ";
 							- _id = GUID 80b0ef3f-4557-492a-b232-7f171e6f0c16;
 							- _name = "ready";
 							- _modifiedTimeWeak = 6.20.2017::9:58:12;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _parent = GUID 5fe0a32f-b867-4674-8b7c-b249fc2a418a;
 							- _stateType = And;
 							- _defaultTrans = ;
@@ -1628,6 +2004,11 @@ else status = \"unknows state\"; ";
 							- _id = GUID d67766a4-23a9-4fe1-bf9a-1520f2df37d8;
 							- _name = "reportingStatus";
 							- _modifiedTimeWeak = 6.20.2017::9:58:12;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _parent = GUID 35121f3a-6366-485a-913c-aa0068677f46;
 							- _defaultTrans = ;
 						}
@@ -1636,6 +2017,11 @@ else status = \"unknows state\"; ";
 							- _myState = 2048;
 							- _name = "state_9";
 							- _modifiedTimeWeak = 6.20.2017::9:58:12;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _parent = GUID 80b0ef3f-4557-492a-b232-7f171e6f0c16;
 							- _defaultTrans = GUID df2c36f3-a4c9-4eb0-b591-2ad37d06f611;
 						}
@@ -1644,6 +2030,11 @@ else status = \"unknows state\"; ";
 							- _myState = 2048;
 							- _name = "state_10";
 							- _modifiedTimeWeak = 6.20.2017::9:58:12;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _parent = GUID 80b0ef3f-4557-492a-b232-7f171e6f0c16;
 							- _defaultTrans = GUID 8999325b-8a12-492c-be68-1f3fc62b44c1;
 						}
@@ -1854,6 +2245,11 @@ else status = \"unknows state\"; ";
 							}
 							- _name = "statechartdiagram_0";
 							- _modifiedTimeWeak = 6.22.2017::17:38:44;
+							- _description = { IDescription 
+								- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+							}
 							- _lastModifiedTime = "6.22.2017::17:38:44";
 							- _graphicChart = { CGIStateChart 
 								- _id = GUID 9c45e5e1-787c-47db-8655-b37a15f95fb9;
@@ -3989,6 +4385,11 @@ else status = \"unknows state\"; ";
 			- _myState = 8192;
 			- _name = "evOn";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _description = { IDescription 
+				- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+			}
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -3999,6 +4400,11 @@ else status = \"unknows state\"; ";
 			- _myState = 8192;
 			- _name = "evOff";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _description = { IDescription 
+				- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20\\par
+}";
+			}
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
