@@ -100,7 +100,7 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 		}
 	}
 	- _name = "IoT-Device";
-	- _modifiedTimeWeak = 6.25.2017::10:0:19;
+	- _modifiedTimeWeak = 6.25.2017::11:39:22;
 	- _lastID = 4;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;
@@ -116,11 +116,11 @@ I-Logix-RPY-Archive version 8.13.0 C++ 9794446
 	}
 	- _component = { IHandle 
 		- _m2Class = "IComponent";
-		- _filename = "Test.sbs";
-		- _subsystem = "Test";
+		- _filename = "IOT_DEVICE.sbs";
+		- _subsystem = "IOT_DEVICE";
 		- _class = "";
-		- _name = "Test";
-		- _id = GUID 6323eb2e-c116-412d-8542-44ca0c41c865;
+		- _name = "IOT";
+		- _id = GUID c4bd8ce1-9e11-4092-9bfb-985f3640dcda;
 	}
 	- Multiplicities = { IRPYRawContainer 
 		- size = 4;
