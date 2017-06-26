@@ -1,9 +1,9 @@
-I-Logix-RPY-Archive version 8.14.0 C++ 9810087
+I-Logix-RPY-Archive version 8.14.0 C++ 9810313
 { ISubsystem 
 	- _id = GUID e3ae3b95-ca18-4c79-8960-d09cd2fde599;
 	- _myState = 8192;
 	- _name = "IOT_MQTT";
-	- _modifiedTimeWeak = 6.25.2017::20:50:21;
+	- _modifiedTimeWeak = 6.26.2017::7:33:14;
 	- _lastID = 6;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
@@ -717,7 +717,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 			}
 		}
 	}
-	- weakCGTime = 6.25.2017::20:50:21;
+	- weakCGTime = 6.26.2017::7:33:14;
 	- strongCGTime = 6.21.2017::20:52:16;
 	- _defaultComposite = GUID 299e5ba5-c17e-449d-a241-ddba47755293;
 	- _eventsBaseID = -1;
@@ -728,8 +728,8 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 			- _id = GUID 299e5ba5-c17e-449d-a241-ddba47755293;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 6.22.2017::17:43:49;
-			- weakCGTime = 6.22.2017::17:43:49;
+			- _modifiedTimeWeak = 6.25.2017::20:50:21;
+			- weakCGTime = 6.25.2017::20:50:21;
 			- strongCGTime = 6.21.2017::20:52:16;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -745,11 +745,6 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 4ca43ee9-53be-48a1-a691-35c9ae68288b;
-			}
-			- _description = { IDescription 
-				- _text = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
-\\viewkind4\\uc1\\pard\\fs20\\par
-}";
 			}
 			- _lastID = 4;
 			- weakCGTime = 6.25.2017::20:51:26;
@@ -825,9 +820,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 							- _modifiedTimeWeak = 6.22.2017::7:39:0;
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
-								- _filename = "PredefinedTypesC++.sbs";
 								- _subsystem = "PredefinedTypesCpp";
-								- _class = "";
 								- _name = "char*";
 								- _id = GUID a1f818e6-c022-42d5-bbc0-075bf073b055;
 							}
@@ -866,9 +859,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 							- _modifiedTimeWeak = 6.22.2017::7:36:46;
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
-								- _filename = "PredefinedTypesC++.sbs";
 								- _subsystem = "PredefinedTypesCpp";
-								- _class = "";
 								- _name = "char*";
 								- _id = GUID a1f818e6-c022-42d5-bbc0-075bf073b055;
 							}
@@ -878,9 +869,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 					}
 					- _returnType = { IHandle 
 						- _m2Class = "IType";
-						- _filename = "PredefinedTypesC++.sbs";
 						- _subsystem = "PredefinedTypesCpp";
-						- _class = "";
 						- _name = "bool";
 						- _id = GUID e6c263cc-4bc5-4a11-b32d-02148c93add0;
 					}
@@ -962,9 +951,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 							- _modifiedTimeWeak = 6.22.2017::7:39:46;
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
-								- _filename = "PredefinedTypesC++.sbs";
 								- _subsystem = "PredefinedTypesCpp";
-								- _class = "";
 								- _name = "char*";
 								- _id = GUID a1f818e6-c022-42d5-bbc0-075bf073b055;
 							}
@@ -1011,9 +998,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 					}
 					- _returnType = { IHandle 
 						- _m2Class = "IType";
-						- _filename = "PredefinedTypesC++.sbs";
 						- _subsystem = "PredefinedTypesCpp";
-						- _class = "";
 						- _name = "bool";
 						- _id = GUID e6c263cc-4bc5-4a11-b32d-02148c93add0;
 					}
@@ -1095,9 +1080,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 							- _modifiedTimeWeak = 6.22.2017::17:43:49;
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
-								- _filename = "PredefinedTypesC++.sbs";
 								- _subsystem = "PredefinedTypesCpp";
-								- _class = "";
 								- _name = "char*";
 								- _id = GUID a1f818e6-c022-42d5-bbc0-075bf073b055;
 							}
@@ -1107,9 +1090,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 					}
 					- _returnType = { IHandle 
 						- _m2Class = "IType";
-						- _filename = "PredefinedTypesC++.sbs";
 						- _subsystem = "PredefinedTypesCpp";
-						- _class = "";
 						- _name = "void";
 						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
 					}
@@ -1160,9 +1141,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 					}
 					- _returnType = { IHandle 
 						- _m2Class = "IType";
-						- _filename = "PredefinedTypesC++.sbs";
 						- _subsystem = "PredefinedTypesCpp";
-						- _class = "";
 						- _name = "bool";
 						- _id = GUID e6c263cc-4bc5-4a11-b32d-02148c93add0;
 					}
@@ -1229,9 +1208,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
-								- _filename = "PredefinedTypesC++.sbs";
 								- _subsystem = "PredefinedTypesCpp";
-								- _class = "";
 								- _name = "char*";
 								- _id = GUID a1f818e6-c022-42d5-bbc0-075bf073b055;
 							}
@@ -1245,9 +1222,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 							- _modifiedTimeWeak = 6.21.2017::21:24:22;
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
-								- _filename = "PredefinedTypesC++.sbs";
 								- _subsystem = "PredefinedTypesCpp";
-								- _class = "";
 								- _name = "bool";
 								- _id = GUID e6c263cc-4bc5-4a11-b32d-02148c93add0;
 							}
@@ -1320,9 +1295,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 									}
 									- _typeOf = { IHandle 
 										- _m2Class = "IType";
-										- _filename = "PredefinedTypes.sbs";
 										- _subsystem = "PredefinedTypes";
-										- _class = "";
 										- _name = "RhpString";
 										- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 									}
@@ -1344,9 +1317,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 									}
 									- _typeOf = { IHandle 
 										- _m2Class = "IType";
-										- _filename = "PredefinedTypes.sbs";
 										- _subsystem = "PredefinedTypes";
-										- _class = "";
 										- _name = "RhpString";
 										- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 									}
@@ -1739,9 +1710,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -1763,9 +1732,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -1806,9 +1773,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -1830,9 +1795,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -1872,9 +1835,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -1896,9 +1857,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -1938,9 +1897,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -1962,9 +1919,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -2004,9 +1959,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -2028,9 +1981,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -2070,9 +2021,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -2094,9 +2043,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -2136,9 +2083,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -2160,9 +2105,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -2202,9 +2145,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -2226,9 +2167,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -2268,9 +2207,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -2292,9 +2229,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -2425,9 +2360,7 @@ jValueObj.SetObject();";
 							- _modifiedTimeWeak = 6.21.2017::6:37:31;
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
-								- _filename = "PredefinedTypesC++.sbs";
 								- _subsystem = "PredefinedTypesCpp";
-								- _class = "";
 								- _name = "char*";
 								- _id = GUID a1f818e6-c022-42d5-bbc0-075bf073b055;
 							}
@@ -2441,9 +2374,7 @@ jValueObj.SetObject();";
 							- _modifiedTimeWeak = 6.21.2017::6:37:45;
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
-								- _filename = "PredefinedTypesC++.sbs";
 								- _subsystem = "PredefinedTypesCpp";
-								- _class = "";
 								- _name = "char*";
 								- _id = GUID a1f818e6-c022-42d5-bbc0-075bf073b055;
 							}
@@ -2453,9 +2384,7 @@ jValueObj.SetObject();";
 					}
 					- _returnType = { IHandle 
 						- _m2Class = "IType";
-						- _filename = "PredefinedTypesC++.sbs";
 						- _subsystem = "PredefinedTypesCpp";
-						- _class = "";
 						- _name = "void";
 						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
 					}
@@ -2493,9 +2422,7 @@ if (name != NULL)
 							- _modifiedTimeWeak = 6.21.2017::6:37:31;
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
-								- _filename = "PredefinedTypesC++.sbs";
 								- _subsystem = "PredefinedTypesCpp";
-								- _class = "";
 								- _name = "char*";
 								- _id = GUID a1f818e6-c022-42d5-bbc0-075bf073b055;
 							}
@@ -2509,9 +2436,7 @@ if (name != NULL)
 							- _modifiedTimeWeak = 6.21.2017::7:6:57;
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
-								- _filename = "PredefinedTypesC++.sbs";
 								- _subsystem = "PredefinedTypesCpp";
-								- _class = "";
 								- _name = "double";
 								- _id = GUID 02ef7294-6849-47b9-9fb2-cfb87b56d2ad;
 							}
@@ -2521,9 +2446,7 @@ if (name != NULL)
 					}
 					- _returnType = { IHandle 
 						- _m2Class = "IType";
-						- _filename = "PredefinedTypesC++.sbs";
 						- _subsystem = "PredefinedTypesCpp";
-						- _class = "";
 						- _name = "void";
 						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
 					}
@@ -2769,9 +2692,7 @@ return jsonDoc;";
 									}
 									- _typeOf = { IHandle 
 										- _m2Class = "IType";
-										- _filename = "PredefinedTypes.sbs";
 										- _subsystem = "PredefinedTypes";
-										- _class = "";
 										- _name = "RhpString";
 										- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 									}
@@ -2793,9 +2714,7 @@ return jsonDoc;";
 									}
 									- _typeOf = { IHandle 
 										- _m2Class = "IType";
-										- _filename = "PredefinedTypes.sbs";
 										- _subsystem = "PredefinedTypes";
-										- _class = "";
 										- _name = "RhpString";
 										- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 									}
@@ -3074,9 +2993,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -3098,9 +3015,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -3141,9 +3056,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -3165,9 +3078,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -3207,9 +3118,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -3231,9 +3140,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -3274,9 +3181,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -3298,9 +3203,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -3341,9 +3244,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -3365,9 +3266,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -3437,9 +3336,7 @@ return jsonDoc;";
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
-							- _filename = "PredefinedTypes.sbs";
 							- _subsystem = "PredefinedTypes";
-							- _class = "";
 							- _name = "Usage";
 							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
 						}
@@ -3451,16 +3348,16 @@ return jsonDoc;";
 					}
 				}
 			}
-			- _modifiedTimeWeak = 6.25.2017::20:51:40;
+			- _modifiedTimeWeak = 6.26.2017::7:35:10;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 4ca43ee9-53be-48a1-a691-35c9ae68288b;
 			}
-			- _lastID = 1;
-			- weakCGTime = 6.25.2017::20:51:40;
+			- _lastID = 2;
+			- weakCGTime = 6.26.2017::7:35:10;
 			- strongCGTime = 6.25.2017::20:51:40;
 			- Operations = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ IPrimitiveOperation 
 					- _id = GUID 2a220469-9b65-412e-bcc0-bc1afa291c6b;
@@ -3530,9 +3427,7 @@ return jsonDoc;";
 							- _modifiedTimeWeak = 6.22.2017::17:33:28;
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
-								- _filename = "PredefinedTypesC++.sbs";
 								- _subsystem = "PredefinedTypesCpp";
-								- _class = "";
 								- _name = "char*";
 								- _id = GUID a1f818e6-c022-42d5-bbc0-075bf073b055;
 							}
@@ -3571,9 +3466,7 @@ return jsonDoc;";
 							- _modifiedTimeWeak = 6.22.2017::17:33:41;
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
-								- _filename = "PredefinedTypesC++.sbs";
 								- _subsystem = "PredefinedTypesCpp";
-								- _class = "";
 								- _name = "char*";
 								- _id = GUID a1f818e6-c022-42d5-bbc0-075bf073b055;
 							}
@@ -3598,9 +3491,7 @@ return jsonDoc;";
 					}
 					- _returnType = { IHandle 
 						- _m2Class = "IType";
-						- _filename = "PredefinedTypesC++.sbs";
 						- _subsystem = "PredefinedTypesCpp";
-						- _class = "";
 						- _name = "void";
 						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
 					}
@@ -3639,9 +3530,7 @@ return jsonDoc;";
 							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
-								- _filename = "PredefinedTypesC++.sbs";
 								- _subsystem = "PredefinedTypesCpp";
-								- _class = "";
 								- _name = "char*";
 								- _id = GUID a1f818e6-c022-42d5-bbc0-075bf073b055;
 							}
@@ -3664,9 +3553,7 @@ return jsonDoc;";
 							}
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
-								- _filename = "PredefinedTypesC++.sbs";
 								- _subsystem = "PredefinedTypesCpp";
-								- _class = "";
 								- _name = "bool";
 								- _id = GUID e6c263cc-4bc5-4a11-b32d-02148c93add0;
 							}
@@ -3705,9 +3592,7 @@ return jsonDoc;";
 							- _modifiedTimeWeak = 6.22.2017::8:36:44;
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
-								- _filename = "PredefinedTypesC++.sbs";
 								- _subsystem = "PredefinedTypesCpp";
-								- _class = "";
 								- _name = "char*";
 								- _id = GUID a1f818e6-c022-42d5-bbc0-075bf073b055;
 							}
@@ -3721,9 +3606,7 @@ return jsonDoc;";
 							- _modifiedTimeWeak = 6.22.2017::8:36:49;
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
-								- _filename = "PredefinedTypesC++.sbs";
 								- _subsystem = "PredefinedTypesCpp";
-								- _class = "";
 								- _name = "bool";
 								- _id = GUID e6c263cc-4bc5-4a11-b32d-02148c93add0;
 							}
@@ -3733,9 +3616,7 @@ return jsonDoc;";
 					}
 					- _returnType = { IHandle 
 						- _m2Class = "IType";
-						- _filename = "PredefinedTypesC++.sbs";
 						- _subsystem = "PredefinedTypesCpp";
-						- _class = "";
 						- _name = "void";
 						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
 					}
@@ -3749,6 +3630,138 @@ return jsonDoc;";
 						- _bodyData = "MQTTClientFactory::getFactory()->createClient(this, configFile, connectAutomatically);";
 					}
 				}
+				{ IPrimitiveOperation 
+					- _id = GUID 8920ae4a-7751-46ff-be32-1d3a2fbab461;
+					- _myState = 8192;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "CPP_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Operation";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Kind";
+												- _Value = "common";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "common,virtual,abstract";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "publish";
+					- _modifiedTimeWeak = 6.26.2017::7:35:10;
+					- _lastID = 5;
+					- _virtual = 1;
+					- Args = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IArgument 
+							- _id = GUID adc3dc90-ae3e-4eb4-a51c-b4cb00c06235;
+							- _myState = 8192;
+							- _properties = { IPropertyContainer 
+								- Subjects = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertySubject 
+										- _Name = "CPP_CG";
+										- Metaclasses = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertyMetaclass 
+												- _Name = "Type";
+												- Properties = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IProperty 
+														- _Name = "In";
+														- _Value = "const $type";
+														- _Type = String;
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							- _name = "topic";
+							- _modifiedTimeWeak = 6.22.2017::7:39:46;
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _subsystem = "PredefinedTypesCpp";
+								- _name = "char*";
+								- _id = GUID a1f818e6-c022-42d5-bbc0-075bf073b055;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+						{ IArgument 
+							- _id = GUID 137761a0-fc26-48b4-b90b-850e938522e5;
+							- _myState = 8192;
+							- _properties = { IPropertyContainer 
+								- Subjects = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertySubject 
+										- _Name = "CPP_CG";
+										- Metaclasses = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertyMetaclass 
+												- _Name = "Class";
+												- Properties = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IProperty 
+														- _Name = "In";
+														- _Value = "$type&";
+														- _Type = String;
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							- _name = "payload";
+							- _modifiedTimeWeak = 6.22.2017::7:23:18;
+							- _typeOf = { IHandle 
+								- _m2Class = "IClass";
+								- _id = GUID eb28aed1-38ca-4a71-9a4f-7bd5b0248f8f;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _subsystem = "PredefinedTypesCpp";
+						- _name = "bool";
+						- _id = GUID e6c263cc-4bc5-4a11-b32d-02148c93add0;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "bool res = false;
+if (mqttClient != NULL)
+  mqttClient->publish(topic,payload);
+return res;";
+					}
+				}
 			}
 			- ComponentFiles = { IRPYRawContainer 
 				- size = 2;
@@ -3757,7 +3770,7 @@ return jsonDoc;";
 					- _id = GUID 23caf75b-c17a-4d8b-b486-c3339af8605a;
 					- _myState = 139264;
 					- _name = "IMQTTDevice";
-					- _modifiedTimeWeak = 6.25.2017::20:47:57;
+					- _modifiedTimeWeak = 6.26.2017::7:33:35;
 					- m_path = "";
 					- m_type = specFile;
 					- Fragments = { IRPYRawContainer 
@@ -3795,7 +3808,7 @@ return jsonDoc;";
 						{ IFileFragment 
 							- _id = GUID 8ccd3a52-d437-41f8-8ce5-8c44f2a28e92;
 							- _name = "IMQTTDevice";
-							- _modifiedTimeWeak = 6.25.2017::20:47:57;
+							- _modifiedTimeWeak = 6.26.2017::7:33:35;
 							- Tags = { IRPYRawContainer 
 								- size = 2;
 								- value = 
@@ -3815,9 +3828,7 @@ return jsonDoc;";
 									}
 									- _typeOf = { IHandle 
 										- _m2Class = "IType";
-										- _filename = "PredefinedTypes.sbs";
 										- _subsystem = "PredefinedTypes";
-										- _class = "";
 										- _name = "RhpString";
 										- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 									}
@@ -3839,9 +3850,7 @@ return jsonDoc;";
 									}
 									- _typeOf = { IHandle 
 										- _m2Class = "IType";
-										- _filename = "PredefinedTypes.sbs";
 										- _subsystem = "PredefinedTypes";
-										- _class = "";
 										- _name = "RhpString";
 										- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 									}
@@ -4102,7 +4111,7 @@ return jsonDoc;";
 					- _id = GUID ae902226-77e7-4f72-bec7-8bb9a6077115;
 					- _myState = 139264;
 					- _name = "IMQTTDevice";
-					- _modifiedTimeWeak = 6.25.2017::20:47:57;
+					- _modifiedTimeWeak = 6.26.2017::7:33:35;
 					- m_path = "";
 					- m_type = implFile;
 					- Fragments = { IRPYRawContainer 
@@ -4139,7 +4148,7 @@ return jsonDoc;";
 						{ IFileFragment 
 							- _id = GUID a959b412-75f7-4906-b10b-d5f3da443a94;
 							- _name = "IMQTTDevice";
-							- _modifiedTimeWeak = 6.25.2017::20:47:57;
+							- _modifiedTimeWeak = 6.26.2017::7:33:35;
 							- m_type = implFragment;
 							- m_text = "";
 							- m_startRow = 18;
@@ -4176,9 +4185,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -4200,9 +4207,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -4243,9 +4248,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -4267,9 +4270,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -4309,9 +4310,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -4333,9 +4332,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -4376,9 +4373,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -4400,9 +4395,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -4442,9 +4435,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -4466,9 +4457,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -4508,9 +4497,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -4532,9 +4519,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -4574,9 +4559,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -4598,9 +4581,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -4640,9 +4621,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -4664,9 +4643,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -4706,9 +4683,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -4730,9 +4705,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -4789,9 +4762,8 @@ return jsonDoc;";
 			- _modifiedTimeWeak = 6.22.2017::11:32:11;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
-				- _filename = "";
+				- _filename = ".\\AWS.sbs";
 				- _subsystem = "IOT_DEVICE::AWS";
-				- _class = "";
 				- _name = "AWS Overview";
 				- _id = GUID 3c6e4131-3c8b-4b86-a203-4d87cb8bac74;
 			}
@@ -4881,9 +4853,7 @@ return jsonDoc;";
 							- _modifiedTimeWeak = 6.21.2017::21:39:59;
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
-								- _filename = "PredefinedTypesC++.sbs";
 								- _subsystem = "PredefinedTypesCpp";
-								- _class = "";
 								- _name = "char*";
 								- _id = GUID a1f818e6-c022-42d5-bbc0-075bf073b055;
 							}
@@ -4897,9 +4867,7 @@ return jsonDoc;";
 							- _modifiedTimeWeak = 6.21.2017::21:40:3;
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
-								- _filename = "PredefinedTypesC++.sbs";
 								- _subsystem = "PredefinedTypesCpp";
-								- _class = "";
 								- _name = "bool";
 								- _id = GUID e6c263cc-4bc5-4a11-b32d-02148c93add0;
 							}
@@ -5057,9 +5025,7 @@ return jsonDoc;";
 									}
 									- _typeOf = { IHandle 
 										- _m2Class = "IType";
-										- _filename = "PredefinedTypes.sbs";
 										- _subsystem = "PredefinedTypes";
-										- _class = "";
 										- _name = "RhpString";
 										- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 									}
@@ -5081,9 +5047,7 @@ return jsonDoc;";
 									}
 									- _typeOf = { IHandle 
 										- _m2Class = "IType";
-										- _filename = "PredefinedTypes.sbs";
 										- _subsystem = "PredefinedTypes";
-										- _class = "";
 										- _name = "RhpString";
 										- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 									}
@@ -5347,9 +5311,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -5371,9 +5333,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -5414,9 +5374,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -5438,9 +5396,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -5480,9 +5436,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
@@ -5504,9 +5458,7 @@ return jsonDoc;";
 											}
 											- _typeOf = { IHandle 
 												- _m2Class = "IType";
-												- _filename = "PredefinedTypes.sbs";
 												- _subsystem = "PredefinedTypes";
-												- _class = "";
 												- _name = "RhpString";
 												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
