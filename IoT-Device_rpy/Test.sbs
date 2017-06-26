@@ -1,9 +1,9 @@
-I-Logix-RPY-Archive version 8.14.0 C++ 9810313
+I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 { ISubsystem 
 	- _id = GUID f5881f2d-654d-4234-93fa-810af18a4fb6;
 	- _myState = 8192;
 	- _name = "Test";
-	- _modifiedTimeWeak = 6.26.2017::10:25:53;
+	- _modifiedTimeWeak = 6.26.2017::12:52:59;
 	- _lastID = 3;
 	- Declaratives = { IRPYRawContainer 
 		- size = 2;
@@ -12,9 +12,6 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810313
 			- _id = GUID 6323eb2e-c116-412d-8542-44ca0c41c865;
 			- _myState = 8192;
 			- _name = "Test";
-			- Dependencies = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _modifiedTimeWeak = 6.26.2017::10:25:53;
 			- m_buildType = Executable;
 			- m_libraries = "";
@@ -134,8 +131,9 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810313
 						- value = 
 						{ IHandle 
 							- _m2Class = "IClass";
-							- _filename = ".\\AWS.sbs";
+							- _filename = "AWS.sbs";
 							- _subsystem = "IOT_DEVICE::AWS";
+							- _class = "";
 							- _name = "AWSClientFactory";
 							- _id = GUID 6d3db637-58b8-4e7f-bb91-66188388b778;
 						}
@@ -550,8 +548,9 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810313
 					- m_type = 87;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IClass";
-						- _filename = ".\\IOT_MQTT.sbs";
+						- _filename = "IOT_MQTT.sbs";
 						- _subsystem = "IOT_DEVICE::IOT_MQTT";
+						- _class = "";
 						- _name = "IMQTTDevice";
 						- _id = GUID ac49ddd0-1086-48c5-b735-7fea3af578a8;
 					}
@@ -716,7 +715,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810313
 			}
 		}
 	}
-	- weakCGTime = 6.26.2017::10:25:53;
+	- weakCGTime = 6.26.2017::12:52:59;
 	- strongCGTime = 6.20.2017::8:34:47;
 	- _defaultComposite = GUID 08e47ac6-47b2-4aa2-a7d3-cba5cd89eb3d;
 	- _eventsBaseID = 21601;
@@ -727,8 +726,8 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810313
 			- _id = GUID 08e47ac6-47b2-4aa2-a7d3-cba5cd89eb3d;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 6.26.2017::10:22:36;
-			- weakCGTime = 6.26.2017::10:22:36;
+			- _modifiedTimeWeak = 6.26.2017::11:50:54;
+			- weakCGTime = 6.26.2017::11:50:54;
 			- strongCGTime = 6.20.2017::8:34:47;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -752,7 +751,9 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810313
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
 							- _subsystem = "PredefinedTypes";
+							- _class = "";
 							- _name = "Usage";
 							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
 						}
@@ -760,23 +761,25 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810313
 					- _modifiedTimeWeak = 6.21.2017::7:29:5;
 					- _dependsOn = { INObjectHandle 
 						- _m2Class = "IClass";
-						- _filename = ".\\IOT_MQTT.sbs";
+						- _filename = "IOT_MQTT.sbs";
 						- _subsystem = "IOT_DEVICE::IOT_MQTT";
+						- _class = "";
 						- _name = "MQTTJSONPayload";
 						- _id = GUID eb28aed1-38ca-4a71-9a4f-7bd5b0248f8f;
 					}
 				}
 			}
-			- _modifiedTimeWeak = 6.26.2017::9:27:49;
+			- _modifiedTimeWeak = 6.26.2017::12:58:35;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
-				- _filename = ".\\IOT_MQTT.sbs";
+				- _filename = "IOT_MQTT.sbs";
 				- _subsystem = "IOT_DEVICE::IOT_MQTT";
+				- _class = "";
 				- _name = "Overview";
 				- _id = GUID 4ca43ee9-53be-48a1-a691-35c9ae68288b;
 			}
 			- _lastID = 7;
-			- weakCGTime = 6.26.2017::9:27:49;
+			- weakCGTime = 6.26.2017::12:58:35;
 			- strongCGTime = 6.20.2017::9:25:47;
 			- Operations = { IRPYRawContainer 
 				- size = 6;
@@ -818,7 +821,9 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810313
 					}
 					- _returnType = { IHandle 
 						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
 						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
 						- _name = "void";
 						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
 					}
@@ -854,7 +859,9 @@ std::cout << \"status = \" << status << \" actualTemp = \" << actualTemp << \" d
 					}
 					- _returnType = { IHandle 
 						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
 						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
 						- _name = "void";
 						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
 					}
@@ -902,7 +909,7 @@ else status = \"unknows state\"; ";
 						}
 					}
 					- _name = "onMqttMessage";
-					- _modifiedTimeWeak = 6.26.2017::7:43:53;
+					- _modifiedTimeWeak = 6.26.2017::12:58:35;
 					- _lastID = 3;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -940,7 +947,9 @@ else status = \"unknows state\"; ";
 							- _modifiedTimeWeak = 6.22.2017::17:34:23;
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
+								- _filename = "PredefinedTypesC++.sbs";
 								- _subsystem = "PredefinedTypesCpp";
+								- _class = "";
 								- _name = "char*";
 								- _id = GUID a1f818e6-c022-42d5-bbc0-075bf073b055;
 							}
@@ -979,7 +988,9 @@ else status = \"unknows state\"; ";
 							- _modifiedTimeWeak = 6.22.2017::17:34:35;
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
+								- _filename = "PredefinedTypesC++.sbs";
 								- _subsystem = "PredefinedTypesCpp";
+								- _class = "";
 								- _name = "char*";
 								- _id = GUID a1f818e6-c022-42d5-bbc0-075bf073b055;
 							}
@@ -1004,7 +1015,9 @@ else status = \"unknows state\"; ";
 					}
 					- _returnType = { IHandle 
 						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
 						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
 						- _name = "void";
 						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
 					}
@@ -1015,7 +1028,22 @@ else status = \"unknows state\"; ";
 					- _static = 0;
 					- _constant = 0;
 					- _itsBody = { IBody 
-						- _bodyData = "std::cout << \"topic = \" << topic << \" payload = \" << payload << std::endl;";
+						- _bodyData = "rapidjson::Value& state = json[\"state\"];
+	rapidjson::Value& desired = state[\"desired\"];
+	rapidjson::Value& latest = desired[\"latest\"];
+	rapidjson::Value& sensors = latest[\"sensors\"];
+
+	for (rapidjson::Value::ConstMemberIterator itr = sensors.MemberBegin();
+			itr != sensors.MemberEnd(); ++itr)
+	{
+		if(strcmp(itr->name.GetString(), \"ctrlStatus\") == 0) {
+			if(strcmp(itr->value.GetString(), \"on\") == 0){
+				std::cout << \"switch on \" << std::endl;
+			}
+			else
+				std::cout << \"switch on =  \" << itr->value.GetString() << std::endl;
+		}
+	}";
 					}
 				}
 				{ IConstructor 
@@ -1046,9 +1074,6 @@ else status = \"unknows state\"; ";
 					- _myState = 8192;
 					- _name = "actualTemp";
 					- _modifiedTimeWeak = 6.20.2017::9:14:24;
-					- _description = { IDescription 
-						- _text = "Temp in C.";
-					}
 					- ValueSpecifications = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -1060,7 +1085,9 @@ else status = \"unknows state\"; ";
 					}
 					- _typeOf = { IHandle 
 						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
 						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
 						- _name = "double";
 						- _id = GUID 02ef7294-6849-47b9-9fb2-cfb87b56d2ad;
 					}
@@ -1075,9 +1102,6 @@ else status = \"unknows state\"; ";
 					- _myState = 8192;
 					- _name = "desiredTemp";
 					- _modifiedTimeWeak = 6.20.2017::9:13:46;
-					- _description = { IDescription 
-						- _text = "Temp in C.";
-					}
 					- ValueSpecifications = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -1089,7 +1113,9 @@ else status = \"unknows state\"; ";
 					}
 					- _typeOf = { IHandle 
 						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
 						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
 						- _name = "double";
 						- _id = GUID 02ef7294-6849-47b9-9fb2-cfb87b56d2ad;
 					}
@@ -1115,7 +1141,9 @@ else status = \"unknows state\"; ";
 					}
 					- _typeOf = { IHandle 
 						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
 						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
 						- _name = "char*";
 						- _id = GUID a1f818e6-c022-42d5-bbc0-075bf073b055;
 					}
@@ -1141,7 +1169,9 @@ else status = \"unknows state\"; ";
 					}
 					- _typeOf = { IHandle 
 						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
 						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
 						- _name = "double";
 						- _id = GUID 02ef7294-6849-47b9-9fb2-cfb87b56d2ad;
 					}
@@ -1185,8 +1215,9 @@ else status = \"unknows state\"; ";
 					- _modifiedTimeWeak = 6.21.2017::19:46:30;
 					- _dependsOn = { INObjectHandle 
 						- _m2Class = "IClass";
-						- _filename = ".\\IOT_MQTT.sbs";
+						- _filename = "IOT_MQTT.sbs";
 						- _subsystem = "IOT_DEVICE::IOT_MQTT";
+						- _class = "";
 						- _name = "IMQTTDevice";
 						- _id = GUID ac49ddd0-1086-48c5-b735-7fea3af578a8;
 					}
@@ -1202,9 +1233,9 @@ else status = \"unknows state\"; ";
 					- _id = GUID 900663ee-9320-4f28-bb31-e0055efa10f4;
 					- _myState = 10240;
 					- _name = "statechart_2";
-					- _modifiedTimeWeak = 6.26.2017::9:27:49;
+					- _modifiedTimeWeak = 6.26.2017::11:57:14;
 					- _lastID = 20;
-					- weakCGTime = 6.26.2017::9:27:49;
+					- weakCGTime = 6.26.2017::11:57:14;
 					- strongCGTime = 6.20.2017::8:36:20;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -1617,15 +1648,15 @@ else status = \"unknows state\"; ";
 						{ IState 
 							- _id = GUID 411d6a5e-2120-47da-a833-4304cf5fe883;
 							- _name = "on";
-							- _modifiedTimeWeak = 6.26.2017::9:27:49;
+							- _modifiedTimeWeak = 6.26.2017::11:57:14;
 							- _parent = GUID 80b0ef3f-4557-492a-b232-7f171e6f0c16;
 							- _stateType = And;
 							- _defaultTrans = ;
 							- _entryAction = { IAction 
 								- _id = GUID 2c777893-970c-454d-aa36-7b56d88f4f96;
 								- _myState = 4096;
-								- _modifiedTimeWeak = 6.26.2017::9:27:49;
-								- _body = "notifyStatus();  ";
+								- _modifiedTimeWeak = 6.26.2017::11:57:14;
+								- _body = "notifyStatus();";
 							}
 						}
 						{ IState 
@@ -1693,7 +1724,7 @@ else status = \"unknows state\"; ";
 							- _defaultTrans = ;
 						}
 					}
-					- _version = 6.26.2017::12:27:49;
+					- _version = 6.26.2017::14:57:14;
 					- _baseVersion = 1.2.1990::0:0:0;
 					- _diagram = GUID 5977307f-fd77-454c-bb99-289afe80d67c;
 					- Views = { IRPYRawContainer 
@@ -1930,8 +1961,8 @@ else status = \"unknows state\"; ";
 								}
 							}
 							- _name = "statechartdiagram_0";
-							- _modifiedTimeWeak = 6.26.2017::9:27:49;
-							- _lastModifiedTime = "6.26.2017::9:27:49";
+							- _modifiedTimeWeak = 6.26.2017::11:57:14;
+							- _lastModifiedTime = "6.26.2017::11:57:14";
 							- _graphicChart = { CGIStateChart 
 								- _id = GUID 9c45e5e1-787c-47db-8655-b37a15f95fb9;
 								- m_type = 0;
@@ -1995,6 +2026,9 @@ else status = \"unknows state\"; ";
 									- m_polygon = 4 0 0  0 0  0 0  0 0  ;
 									- m_nNameFormat = 0;
 									- m_nIsNameFormat = 0;
+									- Compartments = { IRPYRawContainer 
+										- size = 0;
+									}
 									- nAndLineCount = 0;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
@@ -2067,6 +2101,9 @@ else status = \"unknows state\"; ";
 									- m_polygon = 4 0 0  0 1060  1096 1060  1096 0  ;
 									- m_nNameFormat = 0;
 									- m_nIsNameFormat = 0;
+									- Compartments = { IRPYRawContainer 
+										- size = 0;
+									}
 									- nAndLineCount = 0;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
@@ -2139,6 +2176,9 @@ else status = \"unknows state\"; ";
 									- m_polygon = 4 0 0  0 1059  1096 1059  1096 0  ;
 									- m_nNameFormat = 0;
 									- m_nIsNameFormat = 0;
+									- Compartments = { IRPYRawContainer 
+										- size = 0;
+									}
 									- nAndLineCount = 1;
 									- andLinePoly = 2 0 724  1096 724  ;
 									- m_pInheritsFrom = { IHandle 
@@ -2426,6 +2466,9 @@ else status = \"unknows state\"; ";
 									- m_polygon = 4 0 0  0 1060  1096 1060  1096 0  ;
 									- m_nNameFormat = 0;
 									- m_nIsNameFormat = 0;
+									- Compartments = { IRPYRawContainer 
+										- size = 0;
+									}
 									- nAndLineCount = 0;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
@@ -2662,6 +2705,9 @@ else status = \"unknows state\"; ";
 									- m_polygon = 4 0 0  0 1060  1096 1060  1096 0  ;
 									- m_nNameFormat = 0;
 									- m_nIsNameFormat = 0;
+									- Compartments = { IRPYRawContainer 
+										- size = 0;
+									}
 									- nAndLineCount = 0;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
@@ -2709,6 +2755,9 @@ else status = \"unknows state\"; ";
 									- m_polygon = 4 0 0  0 1060  1096 1060  1096 0  ;
 									- m_nNameFormat = 0;
 									- m_nIsNameFormat = 0;
+									- Compartments = { IRPYRawContainer 
+										- size = 0;
+									}
 									- nAndLineCount = 0;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
@@ -2941,6 +2990,9 @@ else status = \"unknows state\"; ";
 									- m_polygon = 4 0 0  0 1060  1096 1060  1096 0  ;
 									- m_nNameFormat = 0;
 									- m_nIsNameFormat = 0;
+									- Compartments = { IRPYRawContainer 
+										- size = 0;
+									}
 									- nAndLineCount = 0;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
@@ -3067,6 +3119,9 @@ else status = \"unknows state\"; ";
 									- m_polygon = 4 0 0  0 1060  1096 1060  1096 0  ;
 									- m_nNameFormat = 0;
 									- m_nIsNameFormat = 0;
+									- Compartments = { IRPYRawContainer 
+										- size = 0;
+									}
 									- nAndLineCount = 0;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
@@ -3610,6 +3665,9 @@ else status = \"unknows state\"; ";
 									- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 									- m_nNameFormat = 0;
 									- m_nIsNameFormat = 0;
+									- Compartments = { IRPYRawContainer 
+										- size = 0;
+									}
 									- m_csModelObjPath = "Test.TempCtrl[0].evOn";
 									- m_csName = "on";
 									- m_PartsArray = { IRPYRawContainer 
@@ -3680,6 +3738,9 @@ else status = \"unknows state\"; ";
 									- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 									- m_nNameFormat = 0;
 									- m_nIsNameFormat = 0;
+									- Compartments = { IRPYRawContainer 
+										- size = 0;
+									}
 									- m_csModelObjPath = "Test.TempCtrl[0].evOff";
 									- m_csName = "off";
 									- m_PartsArray = { IRPYRawContainer 
@@ -3764,6 +3825,9 @@ else status = \"unknows state\"; ";
 									- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 									- m_nNameFormat = 0;
 									- m_nIsNameFormat = 0;
+									- Compartments = { IRPYRawContainer 
+										- size = 0;
+									}
 									- m_csModelObjPath = "Test.TempCtrl[0].desiredTemp";
 									- m_csName = "desired temp";
 									- m_PartsArray = { IRPYRawContainer 
@@ -3827,6 +3891,9 @@ else status = \"unknows state\"; ";
 									- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 									- m_nNameFormat = 0;
 									- m_nIsNameFormat = 0;
+									- Compartments = { IRPYRawContainer 
+										- size = 0;
+									}
 									- m_csModelObjPath = "Test.TempCtrl[0].actualTemp";
 									- m_csName = "actual temp";
 									- m_PartsArray = { IRPYRawContainer 
@@ -3958,6 +4025,9 @@ else status = \"unknows state\"; ";
 									- m_polygon = 4 0 724  1096 724  1096 0  0 0  ;
 									- m_nNameFormat = 0;
 									- m_nIsNameFormat = 0;
+									- Compartments = { IRPYRawContainer 
+										- size = 0;
+									}
 									- nAndLineCount = 0;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
@@ -4005,6 +4075,9 @@ else status = \"unknows state\"; ";
 									- m_polygon = 4 0 724  1096 724  1096 1059  0 1059  ;
 									- m_nNameFormat = 0;
 									- m_nIsNameFormat = 0;
+									- Compartments = { IRPYRawContainer 
+										- size = 0;
+									}
 									- nAndLineCount = 0;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
@@ -4155,6 +4228,9 @@ else status = \"unknows state\"; ";
 									- m_polygon = 4 0 0  0 1060  1096 1060  1096 0  ;
 									- m_nNameFormat = 0;
 									- m_nIsNameFormat = 0;
+									- Compartments = { IRPYRawContainer 
+										- size = 0;
+									}
 									- nAndLineCount = 0;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";

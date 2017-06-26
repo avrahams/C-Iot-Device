@@ -1,11 +1,31 @@
-I-Logix-RPY-Archive version 8.14.0 C++ 9810313
+I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 { IProject 
 	- _id = GUID 19f628d6-269c-4a33-9a31-15df12f70b38;
 	- _myState = 8192;
 	- _properties = { IPropertyContainer 
 		- Subjects = { IRPYRawContainer 
-			- size = 3;
+			- size = 4;
 			- value = 
+			{ IPropertySubject 
+				- _Name = "CPP_Roundtrip";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "General";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "RoundtripScheme";
+								- _Value = "Basic";
+								- _Type = Enum;
+								- _ExtraTypeInfo = "Respect,Advanced,Basic";
+							}
+						}
+					}
+				}
+			}
 			{ IPropertySubject 
 				- _Name = "Format";
 				- Metaclasses = { IRPYRawContainer 
@@ -100,7 +120,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810313
 		}
 	}
 	- _name = "IoT-Device";
-	- _modifiedTimeWeak = 6.26.2017::10:24:43;
+	- _modifiedTimeWeak = 6.26.2017::12:52:25;
 	- _lastID = 4;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;
@@ -108,12 +128,17 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810313
 	}
 	- _defaultSubsystem = { ISubsystemHandle 
 		- _m2Class = "ISubsystem";
+		- _filename = "Test.sbs";
+		- _subsystem = "";
+		- _class = "";
 		- _name = "Test";
 		- _id = GUID f5881f2d-654d-4234-93fa-810af18a4fb6;
 	}
 	- _component = { IHandle 
 		- _m2Class = "IComponent";
+		- _filename = "Test.sbs";
 		- _subsystem = "Test";
+		- _class = "";
 		- _name = "Test";
 		- _id = GUID 6323eb2e-c116-412d-8542-44ca0c41c865;
 	}
