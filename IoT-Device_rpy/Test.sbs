@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 	- _id = GUID f5881f2d-654d-4234-93fa-810af18a4fb6;
 	- _myState = 8192;
 	- _name = "Test";
-	- _modifiedTimeWeak = 6.26.2017::12:52:59;
+	- _modifiedTimeWeak = 6.26.2017::20:57:12;
 	- _lastID = 3;
 	- Declaratives = { IRPYRawContainer 
 		- size = 2;
@@ -12,7 +12,8 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 			- _id = GUID 6323eb2e-c116-412d-8542-44ca0c41c865;
 			- _myState = 8192;
 			- _name = "Test";
-			- _modifiedTimeWeak = 6.26.2017::10:25:53;
+			- _modifiedTimeWeak = 6.26.2017::21:0:21;
+			- _lastID = 4;
 			- m_buildType = Executable;
 			- m_libraries = "";
 			- m_additionalSources = "";
@@ -39,87 +40,63 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 			}
 			- m_configActive = { ICodeGenConfigInfoHandle 
 				- _m2Class = "ICodeGenConfigInfo";
-				- _id = GUID 6be1ddb3-5ba6-4a1b-bee1-ba142fb53138;
+				- _id = GUID 298c9dc1-58e5-44e7-8ab5-e7008140c8e3;
 			}
 			- Configs = { IRPYRawContainer 
 				- size = 1;
 				- value = 
 				{ ICodeGenConfigInfo 
-					- _id = GUID 6be1ddb3-5ba6-4a1b-bee1-ba142fb53138;
+					- _id = GUID 298c9dc1-58e5-44e7-8ab5-e7008140c8e3;
 					- _myState = 8192;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "CPP_CG";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "MSVC";
-										- Properties = { IRPYRawContainer 
-											- size = 3;
-											- value = 
-											{ IProperty 
-												- _Name = "CPU";
-												- _Value = "x64";
-												- _Type = String;
-											}
-											{ IProperty 
-												- _Name = "IDEVersion";
-												- _Value = "VC15";
-												- _Type = Enum;
-												- _ExtraTypeInfo = "VC9,VC10,VC11,VC15";
-											}
-											{ IProperty 
-												- _Name = "LinkSwitches";
-												- _Value = "$OMLinkCommandSet $LinkerFlags /NOLOGO /LIBPATH:..\\..\\lib";
-												- _Type = String;
-											}
-										}
-									}
-								}
-							}
+					- _name = "TempCtrl - AWS";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "IOT_DEVICE.sbs";
+							- _subsystem = "IOT_DEVICE";
+							- _class = "";
+							- _name = "AWS  IOT";
+							- _id = GUID 886ae719-f4ae-4b8c-8325-5a76ff00a8f3;
 						}
 					}
-					- _name = "AWS_win64";
-					- _modifiedTimeWeak = 6.26.2017::10:22:36;
+					- _modifiedTimeWeak = 6.26.2017::20:59:14;
 					- HyperLinks = { IRPYRawContainer 
 						- size = 2;
 						- value = 
 						{ IMHyperLink 
-							- _id = GUID 7d66bfa4-57cc-479b-9069-e8dc300eb67c;
-							- _modifiedTimeWeak = 6.25.2017::12:1:25;
+							- _id = GUID bba7b78d-c12d-46a8-9aa3-1746b5bfc5ec;
+							- _modifiedTimeWeak = 6.26.2017::20:57:25;
 							- _dependsOn = { INObjectHandle 
 								- _m2Class = "";
 							}
 							- _linkDispName = "Edit Makefile";
 							- _linkType = "FREE";
-							- _linkTarget = "C:\\Users\\eldadpal\\git\\C-Iot-Device\\Test\\AWS_win64\\Test.mak";
+							- _linkTarget = "C:\\ProgramData\\IBM\\Rational\\Rhapsody\\8.2.1x64\\Share\\Profiles\\C-Iot-Device\\Test\\TempCtrl - AWS\\Test.mak";
 							- isConfigurationFileHyperLink = 1;
 						}
 						{ IMHyperLink 
-							- _id = GUID 59b03dfd-0bed-4e24-b886-07b8f4473986;
-							- _modifiedTimeWeak = 6.25.2017::12:1:25;
+							- _id = GUID 33d0095f-62f4-4b85-9705-94efd3b5e97f;
+							- _modifiedTimeWeak = 6.26.2017::20:57:25;
 							- _dependsOn = { INObjectHandle 
 								- _m2Class = "";
 							}
 							- _linkDispName = "Edit Main File";
 							- _linkType = "FREE";
-							- _linkTarget = "C:\\Users\\eldadpal\\git\\C-Iot-Device\\Test\\AWS_win64\\MainTest";
+							- _linkTarget = "C:\\ProgramData\\IBM\\Rational\\Rhapsody\\8.2.1x64\\Share\\Profiles\\C-Iot-Device\\Test\\TempCtrl - AWS\\MainTest";
 							- isConfigurationFileHyperLink = 1;
 						}
 					}
 					- _scopeType = Explicit;
-					- _libraries = "IOT.lib,aws-iot-sdk-cpp.lib,libssl64MD.lib,libcrypto64MD.lib";
+					- _libraries = "";
 					- _additionalSources = "";
 					- _standardHeaders = "";
-					- _includePath = "../../include/aws/rapidjson,../../include/aws,../../IOT/AWS_win64";
+					- _includePath = "";
 					- _targetMain = "";
 					- _instrumentation = Animation;
 					- _timeModel = RealTime;
-					- m_generateActors = 0;
+					- m_generateActors = 1;
 					- _statechartImplementation = Flat;
 					- _initializationCode = "";
 					- _checksList = 0 ;
@@ -127,26 +104,18 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 						- size = 0;
 					}
 					- InitialInstances = { IRPYRawContainer 
-						- size = 2;
+						- size = 1;
 						- value = 
-						{ IHandle 
-							- _m2Class = "IClass";
-							- _filename = "AWS.sbs";
-							- _subsystem = "IOT_DEVICE::AWS";
-							- _class = "";
-							- _name = "AWSClientFactory";
-							- _id = GUID 6d3db637-58b8-4e7f-bb91-66188388b778;
-						}
 						{ IHandle 
 							- _m2Class = "IClass";
 							- _id = GUID c4f5b31a-84b6-4b8a-87c0-5e182a20f16b;
 						}
 					}
 					- _root = { IFolder 
-						- _id = GUID 4ca14f4e-6b2b-44c9-9541-c2987e19d188;
+						- _id = GUID 1dfb0e97-ec1e-41e5-9b4c-eb8d069f4520;
 						- _myState = 8192;
-						- _name = "AWS_win64";
-						- _modifiedTimeWeak = 6.26.2017::10:22:36;
+						- _name = "TempCtrl - AWS";
+						- _modifiedTimeWeak = 6.26.2017::20:57:25;
 						- m_path = "";
 						- Elements = { IRPYRawContainer 
 							- size = 0;
@@ -155,8 +124,8 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 							- size = 0;
 						}
 					}
-					- weakCGTime = 6.26.2017::10:22:36;
-					- strongCGTime = 6.26.2017::10:22:36;
+					- weakCGTime = 6.26.2017::20:59:14;
+					- strongCGTime = 6.26.2017::20:58:38;
 					- AnimScopeElements = { IRPYRawContainer 
 						- size = 0;
 					}
@@ -170,7 +139,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 			- SelectedVariants = { IRPYRawContainer 
 				- size = 0;
 			}
-			- weakCGTime = 6.26.2017::10:25:53;
+			- weakCGTime = 6.26.2017::21:0:21;
 			- strongCGTime = 6.21.2017::19:40:32;
 		}
 		{ IDiagram 
@@ -324,7 +293,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 			}
 			- _name = "test-view";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "6.21.2017::21:27:26";
+			- _lastModifiedTime = "6.26.2017::20:54:28";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID c26fd041-b56d-4c6c-afff-36eabc6bd5a0;
 				- m_type = 0;
@@ -348,7 +317,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 				}
 				- m_drawBehavior = 0;
 				- m_bIsPreferencesInitialized = 0;
-				- elementList = 4;
+				- elementList = 3;
 				{ CGIClass 
 					- _id = GUID 39d264c4-afc5-4d3a-9af5-b4f71277a67a;
 					- m_type = 78;
@@ -621,80 +590,6 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 						- size = 0;
 					}
 				}
-				{ CGIInheritance 
-					- _id = GUID d6855251-c646-4ed2-b42d-36d16e56c5f4;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "General";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Graphics";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ShowLabels";
-												- _Value = "False";
-												- _Type = Bool;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 103;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IGeneralization";
-						- _id = GUID bf922a17-ab02-482b-8dbe-8bbe0a7e5e1c;
-					}
-					- m_pParent = ;
-					- m_name = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_drawBehavior = 4104;
-					- m_bIsPreferencesInitialized = 1;
-					- m_pSource = GUID 96864e43-64be-4882-b6a5-42dc05ee96bf;
-					- m_sourceType = 'F';
-					- m_pTarget = GUID 48c44b87-916c-4aaf-96de-c5714aa5a280;
-					- m_targetType = 'T';
-					- m_direction = ' ';
-					- m_rpn = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_anglePoint1 = 0 0 ;
-					- m_anglePoint2 = 0 0 ;
-					- m_line_style = 0;
-					- m_SourcePort = 1061 959 ;
-					- m_TargetPort = 2 959 ;
-					- m_ShowName = 0;
-					- m_ShowStereotype = 1;
-				}
 				
 				- m_access = 'Z';
 				- m_modified = 'N';
@@ -715,7 +610,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 			}
 		}
 	}
-	- weakCGTime = 6.26.2017::12:52:59;
+	- weakCGTime = 6.26.2017::20:57:12;
 	- strongCGTime = 6.20.2017::8:34:47;
 	- _defaultComposite = GUID 08e47ac6-47b2-4aa2-a7d3-cba5cd89eb3d;
 	- _eventsBaseID = 21601;
@@ -726,8 +621,8 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 			- _id = GUID 08e47ac6-47b2-4aa2-a7d3-cba5cd89eb3d;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 6.26.2017::11:50:54;
-			- weakCGTime = 6.26.2017::11:50:54;
+			- _modifiedTimeWeak = 6.26.2017::12:52:59;
+			- weakCGTime = 6.26.2017::12:52:59;
 			- strongCGTime = 6.20.2017::8:34:47;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -769,7 +664,19 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 					}
 				}
 			}
-			- _modifiedTimeWeak = 6.26.2017::12:58:35;
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "IOT_DEVICE.sbs";
+					- _subsystem = "IOT_DEVICE";
+					- _class = "";
+					- _name = "MQTT-Device";
+					- _id = GUID 599c5301-88b8-4f3f-bde1-f542a23209f3;
+				}
+			}
+			- _modifiedTimeWeak = 6.26.2017::20:54:28;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _filename = "IOT_MQTT.sbs";
@@ -779,8 +686,8 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 				- _id = GUID 4ca43ee9-53be-48a1-a691-35c9ae68288b;
 			}
 			- _lastID = 7;
-			- weakCGTime = 6.26.2017::12:58:35;
-			- strongCGTime = 6.20.2017::9:25:47;
+			- weakCGTime = 6.26.2017::20:54:28;
+			- strongCGTime = 6.26.2017::20:54:28;
 			- Operations = { IRPYRawContainer 
 				- size = 6;
 				- value = 
@@ -1180,49 +1087,6 @@ else status = \"unknows state\"; ";
 					- _static = 0;
 					- _isReference = 0;
 					- _isConstant = 0;
-				}
-			}
-			- Inheritances = { IRPYRawContainer 
-				- size = 1;
-				- value = 
-				{ IGeneralization 
-					- _id = GUID bf922a17-ab02-482b-8dbe-8bbe0a7e5e1c;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "CPP_CG";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Generalization";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "Animate";
-												- _Value = "False";
-												- _Type = Bool;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- _modifiedTimeWeak = 6.21.2017::19:46:30;
-					- _dependsOn = { INObjectHandle 
-						- _m2Class = "IClass";
-						- _filename = "IOT_MQTT.sbs";
-						- _subsystem = "IOT_DEVICE::IOT_MQTT";
-						- _class = "";
-						- _name = "IMQTTDevice";
-						- _id = GUID ac49ddd0-1086-48c5-b735-7fea3af578a8;
-					}
-					- _inheritanceType = iPublic;
-					- _isVirtual = 0;
 				}
 			}
 			- _multiplicity = "";

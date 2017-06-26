@@ -3,9 +3,10 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 	- _id = GUID b745dc08-3c72-4092-8081-d8839dbdb41a;
 	- _myState = 8192;
 	- _name = "IOT_DEVICE";
-	- _modifiedTimeWeak = 6.22.2017::14:30:52;
+	- _modifiedTimeWeak = 6.26.2017::20:56:23;
+	- _lastID = 2;
 	- Declaratives = { IRPYRawContainer 
-		- size = 3;
+		- size = 5;
 		- value = 
 		{ ISubsystem 
 			- fileName = "IOT_MQTT";
@@ -334,8 +335,276 @@ clean:
 			- weakCGTime = 6.22.2017::14:30:52;
 			- strongCGTime = 6.21.2017::14:8:4;
 		}
+		{ IStereotype 
+			- _id = GUID 886ae719-f4ae-4b8c-8325-5a76ff00a8f3;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "CPP_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Configuration";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "ImplementationProlog";
+										- _Value = "#include \"AWSClientFactory.h\"
+AWSClientFactory aws_factory;";
+										- _Type = MultiLine;
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "MSVC";
+								- Properties = { IRPYRawContainer 
+									- size = 4;
+									- value = 
+									{ IProperty 
+										- _Name = "CPU";
+										- _Value = "x64";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "CompileSwitches";
+										- _Value = "/I . /I $OMDefaultSpecificationDirectory /I $(OMROOT)\\LangCpp /I $(OMROOT)\\LangCpp\\oxf /I $(OMROOT)\\Profiles\\C-Iot-Device\\include\\aws\\rapidjson /I $(OMROOT)\\Profiles\\C-Iot-Device\\include\\aws /I $(OMROOT)\\Profiles\\C-Iot-Device\\IOT\\AWS_win64 /nologo /W3 $(ENABLE_EH) $(CRT_FLAGS) $OMCPPCompileCommandSet /D \"_AFXDLL\" /D \"WIN32\" /D \"_CONSOLE\" /D \"_MBCS\" /D \"_WINDOWS\" $(INST_FLAGS) $(INCLUDE_PATH) $(INST_INCLUDES) /c ";
+										- _Type = MultiLine;
+									}
+									{ IProperty 
+										- _Name = "IDEVersion";
+										- _Value = "VC15";
+										- _Type = Enum;
+										- _ExtraTypeInfo = "VC9,VC10,VC11,VC15";
+									}
+									{ IProperty 
+										- _Name = "MakeFileContent";
+										- _Value = "
+############# Target type (Debug/Release) ##################
+############################################################
+CPPCompileDebug=$OMCPPCompileDebug
+CPPCompileRelease=$OMCPPCompileRelease
+LinkDebug=$OMLinkDebug
+LinkRelease=$OMLinkRelease
+BuildSet=$OMBuildSet
+SUBSYSTEM=$OMSubSystem
+RPFrameWorkDll=$OMRPFrameWorkDll
+SimulinkLibName=$SimulinkLibName
+
+ConfigurationCPPCompileSwitches=$OMReusableStatechartSwitches $OMConfigurationCPPCompileSwitches $OMSDLCompileSwitches $OMDDSFileCPPCompileSwitches
+
+SIMULINK_CONFIG=$SimulinkConfig
+!IF \"$(SIMULINK_CONFIG)\" == \"True\"
+ConfigurationCPPCompileSwitches=$(ConfigurationCPPCompileSwitches) /D \"OM_WITH_CLEANUP\"
+!ENDIF
+
+
+!IF \"$(RPFrameWorkDll)\" == \"True\"
+ConfigurationCPPCompileSwitches=$(ConfigurationCPPCompileSwitches) /D \"FRAMEWORK_DLL\"
+!ENDIF
+
+################### Compilation flags ######################
+############################################################
+INCLUDE_QUALIFIER=/I
+DEFINE_QUALIFIER=/D
+
+!IF \"$(UseLIBCMT)\" == \"True\"
+MT_PREFIX=MT
+LIBCRT_FLAG=/MT
+!ELSE
+MT_PREFIX=
+LIBCRT_FLAG=/MD
+!ENDIF
+
+LIB_PREFIX=$LibPrefix
+
+CRT_FLAGS=$DefinedSymbols
+ENABLE_EH=/EHa
+
+WINMM_LIB=winmm.lib
+
+################### Commands definition #########################
+#################################################################
+RMDIR = rmdir
+LIB_CMD=link.exe -lib
+LINK_CMD=link.exe
+LIB_FLAGS=$OMConfigurationLinkSwitches  /LIBPATH:$(OMROOT)\\Profiles\\C-Iot-Device\\lib
+LINK_FLAGS=$OMConfigurationLinkSwitches  /LIBPATH:$(OMROOT)\\Profiles\\C-Iot-Device\\lib $(SUBSYSTEM) /MACHINE:$CPU 
+
+############### Generated macros #################
+##################################################
+$OMContextMacros
+
+OBJ_DIR=$OMObjectsDir
+
+!IF \"$(OBJ_DIR)\"!=\"\"
+CREATE_OBJ_DIR=if not exist $(OBJ_DIR) mkdir $(OBJ_DIR)
+CLEAN_OBJ_DIR= if exist $(OBJ_DIR) $(RMDIR) $(OBJ_DIR)
+!ELSE
+CREATE_OBJ_DIR=
+CLEAN_OBJ_DIR=
+!ENDIF
+
+######################## Predefined macros ############################
+#######################################################################
+!IF \"$(OBJS)\" != \"\"
+$(OBJS) : $(INST_LIBS) $(OXF_LIBS)
+!ENDIF
+
+LIB_POSTFIX=
+!IF \"$(BuildSet)\"==\"Release\"
+LIB_POSTFIX=R
+!ENDIF
+
+!IF \"$(TARGET_TYPE)\" == \"Executable\"
+LinkDebug=$(LinkDebug) /DEBUG
+LinkRelease=$(LinkRelease) /OPT:NOREF
+!ELSEIF \"$(TARGET_TYPE)\" == \"Library\"
+LinkDebug=$(LinkDebug)
+!ENDIF
+
+
+!IF \"$(INSTRUMENTATION)\" == \"Animation\"
+INST_FLAGS=/D \"OMANIMATOR\"
+INST_INCLUDES=/I $(OMROOT)\\LangCpp\\aom /I $(OMROOT)\\LangCpp\\tom
+!IF \"$(RPFrameWorkDll)\" == \"True\"
+INST_LIBS= 
+OXF_LIBS=$(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxfanimdll$(LIB_POSTFIX)$(LIB_EXT) 
+!ELSE
+INST_LIBS= $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)aomanim$(LIB_POSTFIX)$(LIB_EXT) $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxsiminst$(LIB_POSTFIX)$(LIB_EXT)
+OXF_LIBS=$(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxfinst$(LIB_POSTFIX)$(LIB_EXT) $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)omComAppl$(LIB_POSTFIX)$(LIB_EXT) $(SimulinkLibName)
+!ENDIF
+SOCK_LIB=wsock32.lib
+
+!ELSEIF \"$(INSTRUMENTATION)\" == \"Tracing\"
+INST_FLAGS=/D \"OMTRACER\"
+INST_INCLUDES=/I $(OMROOT)\\LangCpp\\aom /I $(OMROOT)\\LangCpp\\tom
+!IF \"$(RPFrameWorkDll)\" == \"True\"
+INST_LIBS=
+OXF_LIBS= $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxftracedll$(LIB_POSTFIX)$(LIB_EXT) 
+!ELSE
+INST_LIBS=$(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)tomtrace$(LIB_POSTFIX)$(LIB_EXT) $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)aomtrace$(LIB_POSTFIX)$(LIB_EXT) $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxsiminst$(LIB_POSTFIX)$(LIB_EXT)
+OXF_LIBS= $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxfinst$(LIB_POSTFIX)$(LIB_EXT) $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)omComAppl$(LIB_POSTFIX)$(LIB_EXT) $(SimulinkLibName)
+!ENDIF
+SOCK_LIB=wsock32.lib
+
+!ELSEIF \"$(INSTRUMENTATION)\" == \"None\" 
+INST_FLAGS=
+INST_INCLUDES=
+INST_LIBS=
+!IF \"$(RPFrameWorkDll)\" == \"True\"
+OXF_LIBS=$(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxfdll$(LIB_POSTFIX)$(LIB_EXT) $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxsim$(LIB_POSTFIX)$(LIB_EXT)
+!ELSE
+OXF_LIBS=$(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxf$(LIB_POSTFIX)$(LIB_EXT) $(SimulinkLibName) $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxsim$(LIB_POSTFIX)$(LIB_EXT)
+!ENDIF
+SOCK_LIB=
+
+!ELSE
+!ERROR An invalid Instrumentation $(INSTRUMENTATION) is specified.
+!ENDIF
+
+
+
+################## Generated dependencies ########################
+##################################################################
+$OMContextDependencies
+
+$OMFileObjPath : $OMMainImplementationFile $(OBJS) 
+	$(CPP) $(ConfigurationCPPCompileSwitches) /Fo\"$OMFileObjPath\" $OMMainImplementationFile
+
+########################## Linking instructions ###############################
+###############################################################################
+$(TARGET_NAME)$(EXE_EXT): $(OBJS) $(ADDITIONAL_OBJS) $OMFileObjPath $OMMakefileName $OMModelLibs
+	@echo Linking $(TARGET_NAME)$(EXE_EXT)
+	$(LINK_CMD)  $OMFileObjPath $(OBJS) $(ADDITIONAL_OBJS) IOT.lib aws-iot-sdk-cpp.lib libssl64MD.lib libcrypto64MD.lib\\
+	$(LIBS) \\
+	$(INST_LIBS) \\
+	$(OXF_LIBS) \\
+	$(SOCK_LIB) \\
+	$(WINMM_LIB) \\
+	$(LINK_FLAGS) /out:$(TARGET_NAME)$(EXE_EXT)
+	if exist $(TARGET_NAME)$(EXE_EXT).manifest mt.exe -manifest $@.manifest -outputresource:$(TARGET_NAME)$(EXE_EXT);1
+
+
+
+$(TARGET_NAME)$(LIB_EXT) : $(OBJS) $(ADDITIONAL_OBJS) $OMMakefileName
+	@echo Building library $@
+	$(LIB_CMD) $(LIB_FLAGS) /out:$(TARGET_NAME)$(LIB_EXT) $(OBJS) $(ADDITIONAL_OBJS) $(LIBS)
+
+clean:
+	@echo Cleanup
+	$OMCleanOBJS
+	if exist $OMFileObjPath erase $OMFileObjPath
+	if exist *$(OBJ_EXT) erase *$(OBJ_EXT)
+	if exist $(TARGET_NAME).pdb erase $(TARGET_NAME).pdb
+	if exist $(TARGET_NAME)$(LIB_EXT) erase $(TARGET_NAME)$(LIB_EXT)
+	if exist $(TARGET_NAME).ilk erase $(TARGET_NAME).ilk
+	if exist $(TARGET_NAME)$(EXE_EXT) erase $(TARGET_NAME)$(EXE_EXT)
+	if exist $(TARGET_NAME)$(EXE_EXT).manifest erase $(TARGET_NAME)$(EXE_EXT).manifest
+	$(CLEAN_OBJ_DIR)
+	$OMCleanDdsIdlFiles
+";
+										- _Type = MultiLine;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "AWS  IOT";
+			- _modifiedTimeWeak = 6.26.2017::20:56:23;
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Configuration"; 
+			}
+		}
+		{ IStereotype 
+			- _id = GUID 599c5301-88b8-4f3f-bde1-f542a23209f3;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "CPP_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Class";
+								- Properties = { IRPYRawContainer 
+									- size = 2;
+									- value = 
+									{ IProperty 
+										- _Name = "AdditionalBaseClasses";
+										- _Value = "public IMQTTDevice";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "SpecIncludes";
+										- _Value = "<IMQTTDevice.h>";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "MQTT-Device";
+			- _modifiedTimeWeak = 6.26.2017::20:54:15;
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Class"; 
+			}
+		}
 	}
-	- weakCGTime = 6.22.2017::14:30:52;
+	- weakCGTime = 6.26.2017::20:56:23;
 	- strongCGTime = 6.21.2017::14:6:39;
 	- _defaultComposite = GUID 5f7c92fb-456f-4ef7-9597-92fc25825d59;
 	- _eventsBaseID = -1;
