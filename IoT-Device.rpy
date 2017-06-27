@@ -120,8 +120,8 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810313
 		}
 	}
 	- _name = "IoT-Device";
-	- _modifiedTimeWeak = 6.27.2017::7:28:5;
-	- _lastID = 4;
+	- _modifiedTimeWeak = 6.27.2017::8:36:33;
+	- _lastID = 5;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;
 		- value = 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 
@@ -168,7 +168,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810313
 			- fileName = "CGCompatibilityPre821Cpp";
 			- _id = GUID 00b0140e-6d06-4d19-ba99-8a8e40131db7;
 		}
-		{ ISubsystem 
+		{ IProfile 
 			- fileName = "IOT_DEVICE";
 			- _id = GUID b745dc08-3c72-4092-8081-d8839dbdb41a;
 		}

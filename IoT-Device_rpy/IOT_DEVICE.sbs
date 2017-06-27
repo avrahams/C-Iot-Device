@@ -1,9 +1,9 @@
-I-Logix-RPY-Archive version 8.14.0 C++ 9810087
-{ ISubsystem 
+I-Logix-RPY-Archive version 8.14.0 C++ 9810313
+{ IProfile 
 	- _id = GUID b745dc08-3c72-4092-8081-d8839dbdb41a;
 	- _myState = 8192;
 	- _name = "IOT_DEVICE";
-	- _modifiedTimeWeak = 6.26.2017::20:56:23;
+	- _modifiedTimeWeak = 6.27.2017::8:36:10;
 	- _lastID = 2;
 	- Declaratives = { IRPYRawContainer 
 		- size = 5;
@@ -20,7 +20,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 			- _id = GUID c4bd8ce1-9e11-4092-9bfb-985f3640dcda;
 			- _myState = 8192;
 			- _name = "IOT";
-			- _modifiedTimeWeak = 6.22.2017::14:30:52;
+			- _modifiedTimeWeak = 6.27.2017::8:36:10;
 			- m_buildType = Library;
 			- m_libraries = "";
 			- m_additionalSources = "";
@@ -37,7 +37,7 @@ I-Logix-RPY-Archive version 8.14.0 C++ 9810087
 					- size = 1;
 					- value = 
 					{ IHandle 
-						- _m2Class = "ISubsystem";
+						- _m2Class = "IProfile";
 						- _id = GUID b745dc08-3c72-4092-8081-d8839dbdb41a;
 					}
 				}
@@ -297,9 +297,8 @@ clean:
 						- value = 
 						{ IHandle 
 							- _m2Class = "IClass";
-							- _filename = "AWS.sbs";
+							- _filename = ".\\AWS.sbs";
 							- _subsystem = "IOT_DEVICE::AWS";
-							- _class = "";
 							- _name = "AWSClientFactory";
 							- _id = GUID 6d3db637-58b8-4e7f-bb91-66188388b778;
 						}
@@ -332,8 +331,8 @@ clean:
 			- SelectedVariants = { IRPYRawContainer 
 				- size = 0;
 			}
-			- weakCGTime = 6.22.2017::14:30:52;
-			- strongCGTime = 6.21.2017::14:8:4;
+			- weakCGTime = 6.27.2017::8:36:10;
+			- strongCGTime = 6.27.2017::8:36:10;
 		}
 		{ IStereotype 
 			- _id = GUID 886ae719-f4ae-4b8c-8325-5a76ff00a8f3;
@@ -557,7 +556,7 @@ clean:
 				}
 			}
 			- _name = "AWS  IOT";
-			- _modifiedTimeWeak = 6.26.2017::20:56:23;
+			- _modifiedTimeWeak = 6.27.2017::8:36:10;
 			- _m2Classes = { IRPYRawContainer 
 				- size = 1;
 				- value = "Configuration"; 
@@ -597,27 +596,27 @@ clean:
 				}
 			}
 			- _name = "MQTT-Device";
-			- _modifiedTimeWeak = 6.26.2017::20:54:15;
+			- _modifiedTimeWeak = 6.27.2017::8:36:10;
 			- _m2Classes = { IRPYRawContainer 
 				- size = 1;
 				- value = "Class"; 
 			}
 		}
 	}
-	- weakCGTime = 6.26.2017::20:56:23;
+	- weakCGTime = 6.27.2017::8:36:10;
 	- strongCGTime = 6.21.2017::14:6:39;
-	- _defaultComposite = GUID 5f7c92fb-456f-4ef7-9597-92fc25825d59;
+	- _defaultComposite = GUID 7153b79f-4c4a-4d8e-90d6-b6b3a549544a;
 	- _eventsBaseID = -1;
 	- Classes = { IRPYRawContainer 
 		- size = 1;
 		- value = 
 		{ IClass 
-			- _id = GUID 5f7c92fb-456f-4ef7-9597-92fc25825d59;
+			- _id = GUID 7153b79f-4c4a-4d8e-90d6-b6b3a549544a;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 6.22.2017::14:30:52;
-			- weakCGTime = 6.22.2017::14:30:52;
-			- strongCGTime = 6.21.2017::14:6:39;
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
@@ -625,6 +624,6 @@ clean:
 			- _classModifier = Unspecified;
 		}
 	}
-	- _configurationRelatedTime = 1.2.1990::0:0:0;
+	- _configurationRelatedTime = 6.27.2017::8:36:10;
 }
 
