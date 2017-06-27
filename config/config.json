@@ -13,7 +13,7 @@
   "aws_access_key_id": "",
   "aws_secret_access_key": "",
   "aws_session_token": "",
-  "client_id": "e74ebf11-93a9-4fcb-aff7-041c0bcf3319",
+  "client_id": "9fed679f-edc4-47c7-b830-da54e4f76e0a",
   "thing_name": "",
   "is_clean_session": true,
   "mqtt_command_timeout_msecs": 20000,
